@@ -1,0 +1,18 @@
+2025/05/26-02:06:09.985 4 Reusing MANIFEST /home/mohak/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2025/05/26-02:06:09.989 4 Recovering log #23
+2025/05/26-02:06:09.989 4 Reusing old log /home/mohak/.config/chromium/Default/Local Storage/leveldb/000023.log 
+2025/05/26-02:07:09.994 4 Level-0 table #27: started
+2025/05/26-02:07:09.998 4 Level-0 table #27: 18802 bytes OK
+2025/05/26-02:07:10.001 4 Delete type=0 #23
+2025/05/26-02:15:25.044 4 Level-0 table #29: started
+2025/05/26-02:15:25.051 4 Level-0 table #29: 254916 bytes OK
+2025/05/26-02:15:25.055 4 Delete type=0 #26
+2025/05/26-02:15:25.056 4 Compacting 4@0 + 1@1 files
+2025/05/26-02:15:25.064 4 Generated table #30@0: 278 keys, 387618 bytes
+2025/05/26-02:15:25.064 4 Compacted 4@0 + 1@1 files => 387618 bytes
+2025/05/26-02:15:25.066 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/26-02:15:25.066 4 Delete type=2 #18
+2025/05/26-02:15:25.067 4 Delete type=2 #27
+2025/05/26-02:15:25.067 4 Delete type=2 #21
+2025/05/26-02:15:25.067 4 Delete type=2 #24
+2025/05/26-02:15:25.067 4 Delete type=2 #29

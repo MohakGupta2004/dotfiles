@@ -1,0 +1,6 @@
+2025/05/26-09:38:53.319 9b6 Creating DB /home/mohak/.config/chromium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb since it was missing.
+2025/05/26-09:38:53.325 9b6 Reusing MANIFEST /home/mohak/.config/chromium/Default/WebStorage/13/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/05/26-09:49:03.153 9b7 Level-0 table #5: started
+2025/05/26-09:49:03.155 9b7 Level-0 table #5: 8940 bytes OK
+2025/05/26-09:49:03.158 9b7 Delete type=0 #3
+2025/05/26-09:49:03.158 9b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

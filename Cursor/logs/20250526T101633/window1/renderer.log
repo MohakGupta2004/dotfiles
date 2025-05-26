@@ -1,0 +1,924 @@
+2025-05-26 10:16:34.693 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.693 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.693 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.694 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:16:34.719 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.719 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.719 [warning] Missing property "mcpDisabledTools" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "dialogDontAskAgainPreferences" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.720 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "cursorIgnore" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "teamAdminSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.721 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "contextBankUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.722 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.723 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.724 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "autoCreateNewChatAfterTimeout" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.725 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "backgroundComposerEnv" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.726 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "goneThroughCodeSnippetOnboarding" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "goneThroughCodeSnippetChangeManagement" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.727 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:34.728 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:16:35.117 [info] Started local extension host with pid 21985.
+2025-05-26 10:16:35.210 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mohak/.cursor/extensions
+2025-05-26 10:16:35.549 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mohak/.cursor/extensions
+2025-05-26 10:16:36.652 [error] [Extension Host] (node:21985) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-26 10:16:37.444 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-26 10:16:37.444 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-26 10:16:37.445 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-26 10:16:38.246 [info] [perf] Render performance baseline is 33ms
+2025-05-26 10:16:39.170 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async P6i.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5315:11905)
+    at async P6i.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5332:1055) [unauthenticated] Error
+2025-05-26 10:16:39.174 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.cppEditHistoryStatus (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async F6i.pollTelemEnabled (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5342:22242) [unauthenticated] Error
+2025-05-26 10:16:39.399 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getDefaultModelNudgeData (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.performDefaultModelRequest (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:14290) [unauthenticated] Error
+2025-05-26 10:16:39.401 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5353:50926) [unauthenticated] Error
+2025-05-26 10:16:39.419 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Rci.z (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:1016:7197) [unauthenticated] Error
+2025-05-26 10:16:54.104 [info] Starting polling for login
+2025-05-26 10:16:54.304 [info] Beginning of Login Poll
+2025-05-26 10:16:54.504 [info] Beginning of Login Poll
+2025-05-26 10:16:54.704 [info] Beginning of Login Poll
+2025-05-26 10:16:54.791 [info] Got login result 404
+2025-05-26 10:16:54.905 [info] Beginning of Login Poll
+2025-05-26 10:16:55.034 [info] Got login result 404
+2025-05-26 10:16:55.104 [info] Beginning of Login Poll
+2025-05-26 10:16:55.272 [info] Got login result 404
+2025-05-26 10:16:55.304 [info] Beginning of Login Poll
+2025-05-26 10:16:55.461 [info] Starting polling for login
+2025-05-26 10:16:55.521 [info] Got login result 404
+2025-05-26 10:16:55.662 [info] Beginning of Login Poll
+2025-05-26 10:16:55.764 [info] Got login result 404
+2025-05-26 10:16:55.862 [info] Beginning of Login Poll
+2025-05-26 10:16:56.004 [info] Got login result 404
+2025-05-26 10:16:56.062 [info] Beginning of Login Poll
+2025-05-26 10:16:56.151 [info] Got login result 404
+2025-05-26 10:16:56.261 [info] Beginning of Login Poll
+2025-05-26 10:16:56.392 [info] Got login result 404
+2025-05-26 10:16:56.463 [info] Beginning of Login Poll
+2025-05-26 10:16:56.630 [info] Got login result 404
+2025-05-26 10:16:56.662 [info] Beginning of Login Poll
+2025-05-26 10:16:56.861 [info] Beginning of Login Poll
+2025-05-26 10:16:56.869 [info] Got login result 404
+2025-05-26 10:16:57.062 [info] Beginning of Login Poll
+2025-05-26 10:16:57.111 [info] Got login result 404
+2025-05-26 10:16:57.149 [info] Starting polling for login
+2025-05-26 10:16:57.349 [info] Beginning of Login Poll
+2025-05-26 10:16:57.352 [info] Got login result 404
+2025-05-26 10:16:57.550 [info] Beginning of Login Poll
+2025-05-26 10:16:57.593 [info] Got login result 404
+2025-05-26 10:16:57.749 [info] Beginning of Login Poll
+2025-05-26 10:16:57.833 [info] Got login result 404
+2025-05-26 10:16:57.836 [info] Got login result 404
+2025-05-26 10:16:57.949 [info] Beginning of Login Poll
+2025-05-26 10:16:58.013 [info] Starting polling for login
+2025-05-26 10:16:58.078 [info] Got login result 404
+2025-05-26 10:16:58.213 [info] Beginning of Login Poll
+2025-05-26 10:16:58.320 [info] Got login result 404
+2025-05-26 10:16:58.413 [info] Beginning of Login Poll
+2025-05-26 10:16:58.560 [info] Got login result 404
+2025-05-26 10:16:58.613 [info] Beginning of Login Poll
+2025-05-26 10:16:58.710 [info] Got login result 404
+2025-05-26 10:16:58.814 [info] Beginning of Login Poll
+2025-05-26 10:16:58.958 [info] Got login result 404
+2025-05-26 10:16:59.013 [info] Beginning of Login Poll
+2025-05-26 10:16:59.199 [info] Got login result 404
+2025-05-26 10:16:59.213 [info] Beginning of Login Poll
+2025-05-26 10:16:59.413 [info] Beginning of Login Poll
+2025-05-26 10:16:59.444 [info] Got login result 404
+2025-05-26 10:16:59.614 [info] Beginning of Login Poll
+2025-05-26 10:16:59.740 [info] Got login result 404
+2025-05-26 10:16:59.813 [info] Beginning of Login Poll
+2025-05-26 10:16:59.985 [info] Got login result 404
+2025-05-26 10:17:00.013 [info] Beginning of Login Poll
+2025-05-26 10:17:00.213 [info] Beginning of Login Poll
+2025-05-26 10:17:00.220 [info] Got login result 404
+2025-05-26 10:17:00.413 [info] Beginning of Login Poll
+2025-05-26 10:17:00.465 [info] Got login result 404
+2025-05-26 10:17:00.596 [info] Starting polling for login
+2025-05-26 10:17:00.703 [info] Got login result 404
+2025-05-26 10:17:00.796 [info] Beginning of Login Poll
+2025-05-26 10:17:00.943 [info] Got login result 404
+2025-05-26 10:17:00.998 [info] Beginning of Login Poll
+2025-05-26 10:17:01.183 [info] Got login result 404
+2025-05-26 10:17:01.197 [info] Beginning of Login Poll
+2025-05-26 10:17:01.279 [info] Got login result 404
+2025-05-26 10:17:01.397 [info] Beginning of Login Poll
+2025-05-26 10:17:01.480 [info] Got login result 404
+2025-05-26 10:17:01.520 [info] Got login result 404
+2025-05-26 10:17:01.596 [info] Beginning of Login Poll
+2025-05-26 10:17:01.771 [info] Got login result 404
+2025-05-26 10:17:01.797 [info] Beginning of Login Poll
+2025-05-26 10:17:01.997 [info] Beginning of Login Poll
+2025-05-26 10:17:02.001 [info] Got login result 404
+2025-05-26 10:17:02.196 [info] Beginning of Login Poll
+2025-05-26 10:17:02.240 [info] Got login result 404
+2025-05-26 10:17:02.397 [info] Beginning of Login Poll
+2025-05-26 10:17:02.509 [info] Got login result 404
+2025-05-26 10:17:02.597 [info] Beginning of Login Poll
+2025-05-26 10:17:02.747 [info] Got login result 404
+2025-05-26 10:17:02.797 [info] Beginning of Login Poll
+2025-05-26 10:17:02.986 [info] Got login result 404
+2025-05-26 10:17:02.996 [info] Beginning of Login Poll
+2025-05-26 10:17:03.196 [info] Beginning of Login Poll
+2025-05-26 10:17:03.228 [info] Got login result 404
+2025-05-26 10:17:03.396 [info] Beginning of Login Poll
+2025-05-26 10:17:03.468 [info] Got login result 404
+2025-05-26 10:17:03.597 [info] Beginning of Login Poll
+2025-05-26 10:17:03.708 [info] Got login result 404
+2025-05-26 10:17:03.797 [info] Beginning of Login Poll
+2025-05-26 10:17:03.948 [info] Got login result 404
+2025-05-26 10:17:03.997 [info] Beginning of Login Poll
+2025-05-26 10:17:04.197 [info] Beginning of Login Poll
+2025-05-26 10:17:04.243 [info] Got login result 404
+2025-05-26 10:17:04.397 [info] Beginning of Login Poll
+2025-05-26 10:17:04.492 [info] Got login result 404
+2025-05-26 10:17:04.597 [info] Beginning of Login Poll
+2025-05-26 10:17:04.727 [info] Got login result 404
+2025-05-26 10:17:04.796 [info] Beginning of Login Poll
+2025-05-26 10:17:04.974 [info] Got login result 404
+2025-05-26 10:17:04.997 [info] Beginning of Login Poll
+2025-05-26 10:17:05.197 [info] Beginning of Login Poll
+2025-05-26 10:17:05.213 [info] Got login result 404
+2025-05-26 10:17:05.397 [info] Beginning of Login Poll
+2025-05-26 10:17:05.471 [info] Got login result 404
+2025-05-26 10:17:05.596 [info] Beginning of Login Poll
+2025-05-26 10:17:05.713 [info] Got login result 404
+2025-05-26 10:17:05.797 [info] Beginning of Login Poll
+2025-05-26 10:17:05.984 [info] Got login result 404
+2025-05-26 10:17:05.996 [info] Beginning of Login Poll
+2025-05-26 10:17:06.196 [info] Beginning of Login Poll
+2025-05-26 10:17:06.290 [info] Got login result 404
+2025-05-26 10:17:06.396 [info] Beginning of Login Poll
+2025-05-26 10:17:06.597 [info] Beginning of Login Poll
+2025-05-26 10:17:06.599 [info] Got login result 404
+2025-05-26 10:17:06.796 [info] Beginning of Login Poll
+2025-05-26 10:17:06.904 [info] Got login result 404
+2025-05-26 10:17:06.997 [info] Beginning of Login Poll
+2025-05-26 10:17:07.146 [info] Got login result 404
+2025-05-26 10:17:07.197 [info] Beginning of Login Poll
+2025-05-26 10:17:07.397 [info] Beginning of Login Poll
+2025-05-26 10:17:07.418 [info] Got login result 404
+2025-05-26 10:17:07.597 [info] Beginning of Login Poll
+2025-05-26 10:17:07.725 [info] Got login result 404
+2025-05-26 10:17:07.796 [info] Beginning of Login Poll
+2025-05-26 10:17:07.997 [info] Beginning of Login Poll
+2025-05-26 10:17:08.033 [info] Got login result 404
+2025-05-26 10:17:08.197 [info] Beginning of Login Poll
+2025-05-26 10:17:08.339 [info] Got login result 404
+2025-05-26 10:17:08.396 [info] Beginning of Login Poll
+2025-05-26 10:17:08.597 [info] Beginning of Login Poll
+2025-05-26 10:17:08.647 [info] Got login result 404
+2025-05-26 10:17:08.797 [info] Beginning of Login Poll
+2025-05-26 10:17:08.954 [info] Got login result 404
+2025-05-26 10:17:08.997 [info] Beginning of Login Poll
+2025-05-26 10:17:09.196 [info] Beginning of Login Poll
+2025-05-26 10:17:09.261 [info] Got login result 404
+2025-05-26 10:17:09.397 [info] Beginning of Login Poll
+2025-05-26 10:17:09.568 [info] Got login result 404
+2025-05-26 10:17:09.597 [info] Beginning of Login Poll
+2025-05-26 10:17:09.797 [info] Beginning of Login Poll
+2025-05-26 10:17:09.876 [info] Got login result 404
+2025-05-26 10:17:09.997 [info] Beginning of Login Poll
+2025-05-26 10:17:10.182 [info] Got login result 404
+2025-05-26 10:17:10.197 [info] Beginning of Login Poll
+2025-05-26 10:17:10.397 [info] Beginning of Login Poll
+2025-05-26 10:17:10.491 [info] Got login result 404
+2025-05-26 10:17:10.597 [info] Beginning of Login Poll
+2025-05-26 10:17:10.796 [info] Beginning of Login Poll
+2025-05-26 10:17:10.996 [info] Beginning of Login Poll
+2025-05-26 10:17:11.196 [info] Beginning of Login Poll
+2025-05-26 10:17:11.397 [info] Beginning of Login Poll
+2025-05-26 10:17:11.546 [info] Got login result 404
+2025-05-26 10:17:11.597 [info] Beginning of Login Poll
+2025-05-26 10:17:11.797 [info] Beginning of Login Poll
+2025-05-26 10:17:11.823 [info] Got login result 404
+2025-05-26 10:17:11.997 [info] Beginning of Login Poll
+2025-05-26 10:17:12.128 [info] Got login result 404
+2025-05-26 10:17:12.197 [info] Beginning of Login Poll
+2025-05-26 10:17:12.396 [info] Beginning of Login Poll
+2025-05-26 10:17:12.436 [info] Got login result 404
+2025-05-26 10:17:12.596 [info] Beginning of Login Poll
+2025-05-26 10:17:12.743 [info] Got login result 404
+2025-05-26 10:17:12.797 [info] Beginning of Login Poll
+2025-05-26 10:17:12.997 [info] Beginning of Login Poll
+2025-05-26 10:17:13.050 [info] Got login result 404
+2025-05-26 10:17:13.197 [info] Beginning of Login Poll
+2025-05-26 10:17:13.357 [info] Got login result 404
+2025-05-26 10:17:13.396 [info] Beginning of Login Poll
+2025-05-26 10:17:13.597 [info] Beginning of Login Poll
+2025-05-26 10:17:13.664 [info] Got login result 404
+2025-05-26 10:17:13.797 [info] Beginning of Login Poll
+2025-05-26 10:17:13.905 [info] Got login result 404
+2025-05-26 10:17:13.996 [info] Beginning of Login Poll
+2025-05-26 10:17:14.175 [info] Got login result 404
+2025-05-26 10:17:14.196 [info] Beginning of Login Poll
+2025-05-26 10:17:14.396 [info] Beginning of Login Poll
+2025-05-26 10:17:14.483 [info] Got login result 404
+2025-05-26 10:17:14.597 [info] Beginning of Login Poll
+2025-05-26 10:17:14.789 [info] Got login result 404
+2025-05-26 10:17:14.796 [info] Beginning of Login Poll
+2025-05-26 10:17:14.997 [info] Beginning of Login Poll
+2025-05-26 10:17:15.099 [info] Got login result 404
+2025-05-26 10:17:15.196 [info] Beginning of Login Poll
+2025-05-26 10:17:15.396 [info] Beginning of Login Poll
+2025-05-26 10:17:15.404 [info] Got login result 404
+2025-05-26 10:17:15.597 [info] Beginning of Login Poll
+2025-05-26 10:17:15.645 [info] Got login result 404
+2025-05-26 10:17:15.797 [info] Beginning of Login Poll
+2025-05-26 10:17:15.918 [info] Got login result 404
+2025-05-26 10:17:15.998 [info] Beginning of Login Poll
+2025-05-26 10:17:16.196 [info] Beginning of Login Poll
+2025-05-26 10:17:16.224 [info] Got login result 404
+2025-05-26 10:17:16.396 [info] Beginning of Login Poll
+2025-05-26 10:17:16.465 [info] Got login result 404
+2025-05-26 10:17:16.596 [info] Beginning of Login Poll
+2025-05-26 10:17:16.706 [info] Got login result 404
+2025-05-26 10:17:16.915 [info] Beginning of Login Poll
+2025-05-26 10:17:17.002 [info] Got login result 404
+2025-05-26 10:17:17.010 [error] [Extension Host] failed to get symbolic ref Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293375)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-26 10:17:17.010 [error] [Extension Host] failed to read .git/HEAD Error: ENOENT: no such file or directory, open '.git/HEAD'
+	at async open (node:internal/fs/promises:639:25)
+	at async Object.readFile (node:internal/fs/promises:1246:14)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1293679)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-26 10:17:17.013 [info] Beginning of Login Poll
+2025-05-26 10:17:17.030 [error] [Extension Host] failed to get branches from remote Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294240)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-26 10:17:17.038 [error] [Extension Host] failed to get default branch from git config Error: Failed to execute git
+	at t.Git._exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:930440)
+	at async t.Git.exec (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/git/dist/main.js:2:929508)
+	at async t.GitProvider.executeGitCommandStable (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1304897)
+	at async t.GitProvider.getDefaultBranchUncached (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1294514)
+	at async t.GitProvider.getDefaultBranch (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:2:1295126)
+	at async Rtt.$getDefaultBranch (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:56076)
+2025-05-26 10:17:17.197 [info] Beginning of Login Poll
+2025-05-26 10:17:17.248 [info] Got login result 404
+2025-05-26 10:17:17.396 [info] Beginning of Login Poll
+2025-05-26 10:17:17.486 [info] Got login result 404
+2025-05-26 10:17:17.597 [info] Beginning of Login Poll
+2025-05-26 10:17:17.760 [info] Got login result 404
+2025-05-26 10:17:17.796 [info] Beginning of Login Poll
+2025-05-26 10:17:17.997 [info] Beginning of Login Poll
+2025-05-26 10:17:18.068 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:204008) [unauthenticated] Error
+2025-05-26 10:17:18.069 [info] Got login result 404
+2025-05-26 10:17:18.069 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async cti.availableDocs (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:650:13502)
+    at async Object.fn (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2286:82675) [unauthenticated] Error
+2025-05-26 10:17:18.196 [info] Beginning of Login Poll
+2025-05-26 10:17:18.375 [info] Got login result 404
+2025-05-26 10:17:18.396 [info] Beginning of Login Poll
+2025-05-26 10:17:18.597 [info] Beginning of Login Poll
+2025-05-26 10:17:18.682 [info] Got login result 404
+2025-05-26 10:17:18.797 [info] Beginning of Login Poll
+2025-05-26 10:17:18.989 [info] Got login result 404
+2025-05-26 10:17:18.996 [info] Beginning of Login Poll
+2025-05-26 10:17:19.197 [info] Beginning of Login Poll
+2025-05-26 10:17:19.297 [info] Got login result 404
+2025-05-26 10:17:19.397 [info] Beginning of Login Poll
+2025-05-26 10:17:19.597 [info] Beginning of Login Poll
+2025-05-26 10:17:19.603 [info] Got login result 404
+2025-05-26 10:17:19.797 [info] Beginning of Login Poll
+2025-05-26 10:17:19.911 [info] Got login result 404
+2025-05-26 10:17:19.997 [info] Beginning of Login Poll
+2025-05-26 10:17:20.197 [info] Beginning of Login Poll
+2025-05-26 10:17:20.217 [info] Got login result 404
+2025-05-26 10:17:20.397 [info] Beginning of Login Poll
+2025-05-26 10:17:20.525 [info] Got login result 404
+2025-05-26 10:17:20.597 [info] Beginning of Login Poll
+2025-05-26 10:17:20.797 [info] Beginning of Login Poll
+2025-05-26 10:17:20.832 [info] Got login result 404
+2025-05-26 10:17:20.997 [info] Beginning of Login Poll
+2025-05-26 10:17:21.139 [info] Got login result 404
+2025-05-26 10:17:21.196 [info] Beginning of Login Poll
+2025-05-26 10:17:21.397 [info] Beginning of Login Poll
+2025-05-26 10:17:21.446 [info] Got login result 404
+2025-05-26 10:17:21.597 [info] Beginning of Login Poll
+2025-05-26 10:17:21.754 [info] Got login result 404
+2025-05-26 10:17:21.797 [info] Beginning of Login Poll
+2025-05-26 10:17:21.997 [info] Beginning of Login Poll
+2025-05-26 10:17:22.062 [info] Got login result 404
+2025-05-26 10:17:22.197 [info] Beginning of Login Poll
+2025-05-26 10:17:22.302 [info] Got login result 404
+2025-05-26 10:17:22.397 [info] Beginning of Login Poll
+2025-05-26 10:17:22.541 [info] Got login result 404
+2025-05-26 10:17:22.597 [info] Beginning of Login Poll
+2025-05-26 10:17:22.797 [info] Beginning of Login Poll
+2025-05-26 10:17:22.880 [info] Got login result 404
+2025-05-26 10:17:22.997 [info] Beginning of Login Poll
+2025-05-26 10:17:23.187 [info] Got login result 404
+2025-05-26 10:17:23.196 [info] Beginning of Login Poll
+2025-05-26 10:17:23.397 [info] Beginning of Login Poll
+2025-05-26 10:17:23.495 [info] Got login result 404
+2025-05-26 10:17:23.597 [info] Beginning of Login Poll
+2025-05-26 10:17:23.797 [info] Beginning of Login Poll
+2025-05-26 10:17:23.802 [info] Got login result 404
+2025-05-26 10:17:23.997 [info] Beginning of Login Poll
+2025-05-26 10:17:24.109 [info] Got login result 404
+2025-05-26 10:17:24.197 [info] Beginning of Login Poll
+2025-05-26 10:17:24.397 [info] Beginning of Login Poll
+2025-05-26 10:17:24.416 [info] Got login result 404
+2025-05-26 10:17:24.596 [info] Beginning of Login Poll
+2025-05-26 10:17:24.723 [info] Got login result 404
+2025-05-26 10:17:24.796 [info] Beginning of Login Poll
+2025-05-26 10:17:24.996 [info] Beginning of Login Poll
+2025-05-26 10:17:25.029 [info] Got login result 404
+2025-05-26 10:17:25.196 [info] Beginning of Login Poll
+2025-05-26 10:17:25.337 [info] Got login result 404
+2025-05-26 10:17:25.396 [info] Beginning of Login Poll
+2025-05-26 10:17:25.579 [info] Got login result 404
+2025-05-26 10:17:25.596 [info] Beginning of Login Poll
+2025-05-26 10:17:25.796 [info] Beginning of Login Poll
+2025-05-26 10:17:25.848 [info] Got login result 404
+2025-05-26 10:17:25.997 [info] Beginning of Login Poll
+2025-05-26 10:17:26.155 [info] Got login result 404
+2025-05-26 10:17:26.196 [info] Beginning of Login Poll
+2025-05-26 10:17:26.399 [info] Beginning of Login Poll
+2025-05-26 10:17:26.464 [info] Got login result 404
+2025-05-26 10:17:26.596 [info] Beginning of Login Poll
+2025-05-26 10:17:26.772 [info] Got login result 404
+2025-05-26 10:17:26.796 [info] Beginning of Login Poll
+2025-05-26 10:17:26.997 [info] Beginning of Login Poll
+2025-05-26 10:17:27.080 [info] Got login result 404
+2025-05-26 10:17:27.197 [info] Beginning of Login Poll
+2025-05-26 10:17:27.387 [info] Got login result 404
+2025-05-26 10:17:27.396 [info] Beginning of Login Poll
+2025-05-26 10:17:27.596 [info] Beginning of Login Poll
+2025-05-26 10:17:27.694 [info] Got login result 404
+2025-05-26 10:17:27.797 [info] Beginning of Login Poll
+2025-05-26 10:17:27.997 [info] Beginning of Login Poll
+2025-05-26 10:17:28.002 [info] Got login result 404
+2025-05-26 10:17:28.197 [info] Beginning of Login Poll
+2025-05-26 10:17:28.307 [info] Got login result 404
+2025-05-26 10:17:28.397 [info] Beginning of Login Poll
+2025-05-26 10:17:28.596 [info] Beginning of Login Poll
+2025-05-26 10:17:28.615 [info] Got login result 404
+2025-05-26 10:17:28.796 [info] Beginning of Login Poll
+2025-05-26 10:17:28.921 [info] Got login result 404
+2025-05-26 10:17:28.997 [info] Beginning of Login Poll
+2025-05-26 10:17:29.197 [info] Beginning of Login Poll
+2025-05-26 10:17:29.227 [info] Got login result 404
+2025-05-26 10:17:29.396 [info] Beginning of Login Poll
+2025-05-26 10:17:29.537 [info] Got login result 404
+2025-05-26 10:17:29.597 [info] Beginning of Login Poll
+2025-05-26 10:17:29.797 [info] Beginning of Login Poll
+2025-05-26 10:17:29.842 [info] Got login result 404
+2025-05-26 10:17:29.996 [info] Beginning of Login Poll
+2025-05-26 10:17:30.150 [info] Got login result 404
+2025-05-26 10:17:30.196 [info] Beginning of Login Poll
+2025-05-26 10:17:30.397 [info] Beginning of Login Poll
+2025-05-26 10:17:30.458 [info] Got login result 404
+2025-05-26 10:17:30.597 [info] Beginning of Login Poll
+2025-05-26 10:17:30.699 [info] Got login result 404
+2025-05-26 10:17:30.797 [info] Beginning of Login Poll
+2025-05-26 10:17:30.941 [info] Got login result 404
+2025-05-26 10:17:30.997 [info] Beginning of Login Poll
+2025-05-26 10:17:31.197 [info] Beginning of Login Poll
+2025-05-26 10:17:31.278 [info] Got login result 404
+2025-05-26 10:17:31.397 [info] Beginning of Login Poll
+2025-05-26 10:17:31.584 [info] Got login result 404
+2025-05-26 10:17:31.597 [info] Beginning of Login Poll
+2025-05-26 10:17:31.796 [info] Beginning of Login Poll
+2025-05-26 10:17:31.892 [info] Got login result 404
+2025-05-26 10:17:31.996 [info] Beginning of Login Poll
+2025-05-26 10:17:32.197 [info] Beginning of Login Poll
+2025-05-26 10:17:32.199 [info] Got login result 404
+2025-05-26 10:17:32.397 [info] Beginning of Login Poll
+2025-05-26 10:17:32.504 [info] Got login result 404
+2025-05-26 10:17:32.596 [info] Beginning of Login Poll
+2025-05-26 10:17:32.796 [info] Beginning of Login Poll
+2025-05-26 10:17:32.811 [info] Got login result 404
+2025-05-26 10:17:32.997 [info] Beginning of Login Poll
+2025-05-26 10:17:33.120 [info] Got login result 404
+2025-05-26 10:17:33.197 [info] Beginning of Login Poll
+2025-05-26 10:17:33.397 [info] Beginning of Login Poll
+2025-05-26 10:17:33.427 [info] Got login result 404
+2025-05-26 10:17:33.597 [info] Beginning of Login Poll
+2025-05-26 10:17:33.669 [info] Got login result 404
+2025-05-26 10:17:33.797 [info] Beginning of Login Poll
+2025-05-26 10:17:33.939 [info] Got login result 404
+2025-05-26 10:17:33.997 [info] Beginning of Login Poll
+2025-05-26 10:17:34.197 [info] Beginning of Login Poll
+2025-05-26 10:17:34.246 [info] Got login result 404
+2025-05-26 10:17:34.397 [info] Beginning of Login Poll
+2025-05-26 10:17:34.554 [info] Got login result 404
+2025-05-26 10:17:34.596 [info] Beginning of Login Poll
+2025-05-26 10:17:34.797 [info] Beginning of Login Poll
+2025-05-26 10:17:34.861 [info] Got login result 404
+2025-05-26 10:17:34.997 [info] Beginning of Login Poll
+2025-05-26 10:17:35.168 [info] Got login result 404
+2025-05-26 10:17:35.197 [info] Beginning of Login Poll
+2025-05-26 10:17:35.396 [info] Beginning of Login Poll
+2025-05-26 10:17:35.476 [info] Got login result 404
+2025-05-26 10:17:35.597 [info] Beginning of Login Poll
+2025-05-26 10:17:35.784 [info] Got login result 404
+2025-05-26 10:17:35.797 [info] Beginning of Login Poll
+2025-05-26 10:17:35.996 [info] Beginning of Login Poll
+2025-05-26 10:17:36.090 [info] Got login result 404
+2025-05-26 10:17:36.196 [info] Beginning of Login Poll
+2025-05-26 10:17:36.330 [info] Got login result 404
+2025-05-26 10:17:36.397 [info] Beginning of Login Poll
+2025-05-26 10:17:36.596 [info] Beginning of Login Poll
+2025-05-26 10:17:36.602 [info] Got login result 404
+2025-05-26 10:17:36.796 [info] Beginning of Login Poll
+2025-05-26 10:17:36.910 [info] Got login result 404
+2025-05-26 10:17:36.997 [info] Beginning of Login Poll
+2025-05-26 10:17:37.196 [info] Beginning of Login Poll
+2025-05-26 10:17:37.223 [info] Got login result 404
+2025-05-26 10:17:37.396 [info] Beginning of Login Poll
+2025-05-26 10:17:37.523 [info] Got login result 404
+2025-05-26 10:17:37.597 [info] Beginning of Login Poll
+2025-05-26 10:17:37.796 [info] Beginning of Login Poll
+2025-05-26 10:17:37.829 [info] Got login result 404
+2025-05-26 10:17:37.997 [info] Beginning of Login Poll
+2025-05-26 10:17:38.139 [info] Got login result 404
+2025-05-26 10:17:38.197 [info] Beginning of Login Poll
+2025-05-26 10:17:38.396 [info] Beginning of Login Poll
+2025-05-26 10:17:38.445 [info] Got login result 404
+2025-05-26 10:17:38.597 [info] Beginning of Login Poll
+2025-05-26 10:17:38.752 [info] Got login result 404
+2025-05-26 10:17:38.797 [info] Beginning of Login Poll
+2025-05-26 10:17:38.997 [info] Beginning of Login Poll
+2025-05-26 10:17:39.059 [info] Got login result 404
+2025-05-26 10:17:39.196 [info] Beginning of Login Poll
+2025-05-26 10:17:39.366 [info] Got login result 404
+2025-05-26 10:17:39.396 [info] Beginning of Login Poll
+2025-05-26 10:17:39.597 [info] Beginning of Login Poll
+2025-05-26 10:17:39.675 [info] Got login result 404
+2025-05-26 10:17:39.797 [info] Beginning of Login Poll
+2025-05-26 10:17:39.981 [info] Got login result 404
+2025-05-26 10:17:39.997 [info] Beginning of Login Poll
+2025-05-26 10:17:40.197 [info] Beginning of Login Poll
+2025-05-26 10:17:40.289 [info] Got login result 404
+2025-05-26 10:17:40.396 [info] Beginning of Login Poll
+2025-05-26 10:17:40.569 [info] Got login result 404
+2025-05-26 10:17:40.596 [info] Beginning of Login Poll
+2025-05-26 10:17:40.796 [info] Beginning of Login Poll
+2025-05-26 10:17:40.903 [info] Got login result 404
+2025-05-26 10:17:40.997 [info] Beginning of Login Poll
+2025-05-26 10:17:41.144 [info] Got login result 404
+2025-05-26 10:17:41.208 [info] Beginning of Login Poll
+2025-05-26 10:17:41.397 [info] Beginning of Login Poll
+2025-05-26 10:17:41.415 [info] Got login result 404
+2025-05-26 10:17:41.597 [info] Beginning of Login Poll
+2025-05-26 10:17:41.723 [info] Got login result 404
+2025-05-26 10:17:41.797 [info] Beginning of Login Poll
+2025-05-26 10:17:41.996 [info] Beginning of Login Poll
+2025-05-26 10:17:42.028 [info] Got login result 404
+2025-05-26 10:17:42.197 [info] Beginning of Login Poll
+2025-05-26 10:17:42.337 [info] Got login result 404
+2025-05-26 10:17:42.396 [info] Beginning of Login Poll
+2025-05-26 10:17:42.597 [info] Beginning of Login Poll
+2025-05-26 10:17:42.643 [info] Got login result 404
+2025-05-26 10:17:42.797 [info] Beginning of Login Poll
+2025-05-26 10:17:42.921 [info] Got login result 404
+2025-05-26 10:17:42.997 [info] Beginning of Login Poll
+2025-05-26 10:17:43.160 [info] Got login result 404
+2025-05-26 10:17:43.196 [info] Beginning of Login Poll
+2025-05-26 10:17:43.396 [info] Beginning of Login Poll
+2025-05-26 10:17:43.461 [info] Got login result 404
+2025-05-26 10:17:43.597 [info] Beginning of Login Poll
+2025-05-26 10:17:43.770 [info] Got login result 404
+2025-05-26 10:17:43.797 [info] Beginning of Login Poll
+2025-05-26 10:17:43.997 [info] Beginning of Login Poll
+2025-05-26 10:17:44.079 [info] Got login result 404
+2025-05-26 10:17:44.197 [info] Beginning of Login Poll
+2025-05-26 10:17:44.384 [info] Got login result 404
+2025-05-26 10:17:44.397 [info] Beginning of Login Poll
+2025-05-26 10:17:44.597 [info] Beginning of Login Poll
+2025-05-26 10:17:44.692 [info] Got login result 404
+2025-05-26 10:17:44.797 [info] Beginning of Login Poll
+2025-05-26 10:17:44.997 [info] Beginning of Login Poll
+2025-05-26 10:17:45.000 [info] Got login result 404
+2025-05-26 10:17:45.197 [info] Beginning of Login Poll
+2025-05-26 10:17:45.306 [info] Got login result 404
+2025-05-26 10:17:45.397 [info] Beginning of Login Poll
+2025-05-26 10:17:45.568 [info] Got login result 404
+2025-05-26 10:17:45.597 [info] Beginning of Login Poll
+2025-05-26 10:17:45.797 [info] Beginning of Login Poll
+2025-05-26 10:17:45.817 [info] Got login result 404
+2025-05-26 10:17:45.997 [info] Beginning of Login Poll
+2025-05-26 10:17:46.063 [info] Got login result 404
+2025-05-26 10:17:46.197 [info] Beginning of Login Poll
+2025-05-26 10:17:46.330 [info] Got login result 404
+2025-05-26 10:17:46.396 [info] Beginning of Login Poll
+2025-05-26 10:17:46.571 [info] Got login result 404
+2025-05-26 10:17:46.597 [info] Beginning of Login Poll
+2025-05-26 10:17:46.797 [info] Beginning of Login Poll
+2025-05-26 10:17:46.813 [info] Got login result 404
+2025-05-26 10:17:46.997 [info] Beginning of Login Poll
+2025-05-26 10:17:47.053 [info] Got login result 404
+2025-05-26 10:17:47.197 [info] Beginning of Login Poll
+2025-05-26 10:17:47.293 [info] Got login result 404
+2025-05-26 10:17:47.397 [info] Beginning of Login Poll
+2025-05-26 10:17:47.559 [info] Got login result 404
+2025-05-26 10:17:47.597 [info] Beginning of Login Poll
+2025-05-26 10:17:47.797 [info] Beginning of Login Poll
+2025-05-26 10:17:47.866 [info] Got login result 404
+2025-05-26 10:17:47.997 [info] Beginning of Login Poll
+2025-05-26 10:17:48.105 [info] Got login result 404
+2025-05-26 10:17:48.196 [info] Beginning of Login Poll
+2025-05-26 10:17:48.347 [info] Got login result 404
+2025-05-26 10:17:48.397 [info] Beginning of Login Poll
+2025-05-26 10:17:48.597 [info] Beginning of Login Poll
+2025-05-26 10:17:48.687 [info] Got login result 404
+2025-05-26 10:17:48.797 [info] Beginning of Login Poll
+2025-05-26 10:17:48.992 [info] Got login result 404
+2025-05-26 10:17:48.996 [info] Beginning of Login Poll
+2025-05-26 10:17:49.196 [info] Beginning of Login Poll
+2025-05-26 10:17:49.233 [info] Got login result 404
+2025-05-26 10:17:49.396 [info] Beginning of Login Poll
+2025-05-26 10:17:49.504 [info] Got login result 404
+2025-05-26 10:17:49.597 [info] Beginning of Login Poll
+2025-05-26 10:17:49.744 [info] Got login result 404
+2025-05-26 10:17:49.797 [info] Beginning of Login Poll
+2025-05-26 10:17:49.996 [info] Beginning of Login Poll
+2025-05-26 10:17:50.016 [info] Got login result 404
+2025-05-26 10:17:50.197 [info] Beginning of Login Poll
+2025-05-26 10:17:50.325 [info] Starting polling for login
+2025-05-26 10:17:50.328 [info] Got login result 404
+2025-05-26 10:17:50.525 [info] Beginning of Login Poll
+2025-05-26 10:17:50.566 [info] Got login result 404
+2025-05-26 10:17:50.725 [info] Beginning of Login Poll
+2025-05-26 10:17:50.806 [info] Got login result 404
+2025-05-26 10:17:50.926 [info] Beginning of Login Poll
+2025-05-26 10:17:51.010 [info] Got login result 404
+2025-05-26 10:17:51.051 [info] Got login result 404
+2025-05-26 10:17:51.125 [info] Beginning of Login Poll
+2025-05-26 10:17:51.250 [info] Got login result 404
+2025-05-26 10:17:51.292 [info] Got login result 404
+2025-05-26 10:17:51.326 [info] Beginning of Login Poll
+2025-05-26 10:17:51.525 [info] Beginning of Login Poll
+2025-05-26 10:17:51.555 [info] Got login result 404
+2025-05-26 10:17:51.557 [info] Got login result 404
+2025-05-26 10:17:51.726 [info] Beginning of Login Poll
+2025-05-26 10:17:51.863 [info] Got login result 404
+2025-05-26 10:17:51.865 [info] Got login result 404
+2025-05-26 10:17:51.925 [info] Beginning of Login Poll
+2025-05-26 10:17:52.125 [info] Beginning of Login Poll
+2025-05-26 10:17:52.169 [info] Got login result 404
+2025-05-26 10:17:52.170 [info] Got login result 404
+2025-05-26 10:17:52.325 [info] Beginning of Login Poll
+2025-05-26 10:17:52.475 [info] Got login result 404
+2025-05-26 10:17:52.476 [info] Got login result 404
+2025-05-26 10:17:52.525 [info] Beginning of Login Poll
+2025-05-26 10:17:52.736 [info] Beginning of Login Poll
+2025-05-26 10:17:52.738 [info] Got login result 404
+2025-05-26 10:17:52.741 [info] Got login result 404
+2025-05-26 10:17:52.925 [info] Beginning of Login Poll
+2025-05-26 10:17:52.961 [info] Got login result 404
+2025-05-26 10:17:52.962 [info] Got login result 404
+2025-05-26 10:17:53.125 [info] Beginning of Login Poll
+2025-05-26 10:17:53.297 [info] Got login result 404
+2025-05-26 10:17:53.298 [info] Got login result 404
+2025-05-26 10:17:53.325 [info] Beginning of Login Poll
+2025-05-26 10:17:53.526 [info] Beginning of Login Poll
+2025-05-26 10:17:53.535 [info] Got login result 404
+2025-05-26 10:17:53.537 [info] Got login result 404
+2025-05-26 10:17:53.725 [info] Beginning of Login Poll
+2025-05-26 10:17:53.807 [info] Got login result 404
+2025-05-26 10:17:53.811 [info] Got login result 404
+2025-05-26 10:17:53.925 [info] Beginning of Login Poll
+2025-05-26 10:17:54.112 [info] Got login result 404
+2025-05-26 10:17:54.114 [info] Got login result 404
+2025-05-26 10:17:54.125 [info] Beginning of Login Poll
+2025-05-26 10:17:54.326 [info] Beginning of Login Poll
+2025-05-26 10:17:54.421 [info] Got login result 404
+2025-05-26 10:17:54.423 [info] Got login result 404
+2025-05-26 10:17:54.525 [info] Beginning of Login Poll
+2025-05-26 10:17:54.725 [info] Beginning of Login Poll
+2025-05-26 10:17:54.728 [info] Got login result 404
+2025-05-26 10:17:54.729 [info] Got login result 404
+2025-05-26 10:17:54.925 [info] Beginning of Login Poll
+2025-05-26 10:17:55.035 [info] Got login result 404
+2025-05-26 10:17:55.036 [info] Got login result 404
+2025-05-26 10:17:55.125 [info] Beginning of Login Poll
+2025-05-26 10:17:55.325 [info] Beginning of Login Poll
+2025-05-26 10:17:55.342 [info] Got login result 404
+2025-05-26 10:17:55.343 [info] Got login result 404
+2025-05-26 10:17:55.525 [info] Beginning of Login Poll
+2025-05-26 10:17:55.587 [info] Got login result 404
+2025-05-26 10:17:55.588 [info] Got login result 404
+2025-05-26 10:17:55.725 [info] Beginning of Login Poll
+2025-05-26 10:17:55.858 [info] Got login result 404
+2025-05-26 10:17:55.859 [info] Got login result 404
+2025-05-26 10:17:55.925 [info] Beginning of Login Poll
+2025-05-26 10:17:56.104 [info] Got login result 404
+2025-05-26 10:17:56.108 [info] Got login result 404
+2025-05-26 10:17:56.126 [info] Beginning of Login Poll
+2025-05-26 10:17:56.325 [info] Beginning of Login Poll
+2025-05-26 10:17:56.345 [info] Got login result 404
+2025-05-26 10:17:56.348 [info] Got login result 404
+2025-05-26 10:17:56.525 [info] Beginning of Login Poll
+2025-05-26 10:17:56.583 [info] Got login result 404
+2025-05-26 10:17:56.591 [info] Got login result 404
+2025-05-26 10:17:56.725 [info] Beginning of Login Poll
+2025-05-26 10:17:56.879 [info] Got login result 404
+2025-05-26 10:17:56.881 [info] Got login result 404
+2025-05-26 10:17:56.925 [info] Beginning of Login Poll
+2025-05-26 10:17:57.125 [info] Beginning of Login Poll
+2025-05-26 10:17:57.126 [info] Got login result 404
+2025-05-26 10:17:57.129 [info] Got login result 404
+2025-05-26 10:17:57.325 [info] Beginning of Login Poll
+2025-05-26 10:17:57.391 [info] Got login result 404
+2025-05-26 10:17:57.393 [info] Got login result 404
+2025-05-26 10:17:57.525 [info] Beginning of Login Poll
+2025-05-26 10:17:57.697 [info] Got login result 404
+2025-05-26 10:17:57.699 [info] Got login result 404
+2025-05-26 10:17:57.725 [info] Beginning of Login Poll
+2025-05-26 10:17:57.925 [info] Beginning of Login Poll
+2025-05-26 10:17:58.006 [info] Got login result 404
+2025-05-26 10:17:58.008 [info] Got login result 404
+2025-05-26 10:17:58.125 [info] Beginning of Login Poll
+2025-05-26 10:17:58.312 [info] Got login result 404
+2025-05-26 10:17:58.313 [info] Got login result 404
+2025-05-26 10:17:58.325 [info] Beginning of Login Poll
+2025-05-26 10:17:58.525 [info] Beginning of Login Poll
+2025-05-26 10:17:58.621 [info] Got login result 404
+2025-05-26 10:17:58.623 [info] Got login result 404
+2025-05-26 10:17:58.725 [info] Beginning of Login Poll
+2025-05-26 10:17:58.864 [info] Got login result 404
+2025-05-26 10:17:58.866 [info] Got login result 404
+2025-05-26 10:17:58.926 [info] Beginning of Login Poll
+2025-05-26 10:17:59.125 [info] Beginning of Login Poll
+2025-05-26 10:17:59.237 [info] Got login result 404
+2025-05-26 10:17:59.237 [info] Got login result 404
+2025-05-26 10:17:59.325 [info] Beginning of Login Poll
+2025-05-26 10:17:59.490 [info] Got login result 404
+2025-05-26 10:17:59.491 [info] Got login result 404
+2025-05-26 10:17:59.527 [info] Beginning of Login Poll
+2025-05-26 10:17:59.725 [info] Beginning of Login Poll
+2025-05-26 10:17:59.734 [info] Got login result 404
+2025-05-26 10:17:59.736 [info] Got login result 404
+2025-05-26 10:17:59.926 [info] Beginning of Login Poll
+2025-05-26 10:17:59.978 [info] Got login result 404
+2025-05-26 10:17:59.980 [info] Got login result 404
+2025-05-26 10:18:00.125 [info] Beginning of Login Poll
+2025-05-26 10:18:00.219 [info] Got login result 404
+2025-05-26 10:18:00.222 [info] Got login result 404
+2025-05-26 10:18:00.325 [info] Beginning of Login Poll
+2025-05-26 10:18:00.525 [info] Beginning of Login Poll
+2025-05-26 10:18:00.566 [info] Got login result 404
+2025-05-26 10:18:00.567 [info] Got login result 404
+2025-05-26 10:18:00.725 [info] Beginning of Login Poll
+2025-05-26 10:18:00.874 [info] Got login result 404
+2025-05-26 10:18:00.875 [info] Got login result 404
+2025-05-26 10:18:00.925 [info] Beginning of Login Poll
+2025-05-26 10:18:01.113 [info] Got login result 404
+2025-05-26 10:18:01.115 [info] Got login result 404
+2025-05-26 10:18:01.125 [info] Beginning of Login Poll
+2025-05-26 10:18:01.325 [info] Beginning of Login Poll
+2025-05-26 10:18:01.385 [info] Got login result 404
+2025-05-26 10:18:01.386 [info] Got login result 200
+2025-05-26 10:18:01.388 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:01.525 [info] Beginning of Login Poll
+2025-05-26 10:18:01.628 [info] Got login result 404
+2025-05-26 10:18:01.629 [info] Got login result 200
+2025-05-26 10:18:01.629 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:01.725 [info] Beginning of Login Poll
+2025-05-26 10:18:01.867 [info] Got login result 404
+2025-05-26 10:18:01.875 [info] Got login result 200
+2025-05-26 10:18:01.875 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:01.925 [info] Beginning of Login Poll
+2025-05-26 10:18:02.109 [info] Got login result 404
+2025-05-26 10:18:02.115 [info] Got login result 200
+2025-05-26 10:18:02.115 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:02.125 [info] Beginning of Login Poll
+2025-05-26 10:18:02.325 [info] Beginning of Login Poll
+2025-05-26 10:18:02.349 [info] Got login result 404
+2025-05-26 10:18:02.357 [info] Got login result 200
+2025-05-26 10:18:02.358 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:02.525 [info] Beginning of Login Poll
+2025-05-26 10:18:02.594 [info] Got login result 404
+2025-05-26 10:18:02.598 [info] Got login result 200
+2025-05-26 10:18:02.599 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:02.725 [info] Beginning of Login Poll
+2025-05-26 10:18:02.834 [info] Got login result 404
+2025-05-26 10:18:02.837 [info] Got login result 200
+2025-05-26 10:18:02.838 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:02.925 [info] Beginning of Login Poll
+2025-05-26 10:18:03.073 [info] Got login result 404
+2025-05-26 10:18:03.078 [info] Got login result 200
+2025-05-26 10:18:03.079 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:03.314 [info] Got login result 404
+2025-05-26 10:18:03.318 [info] Got login result 200
+2025-05-26 10:18:03.319 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:03.556 [info] Got login result 404
+2025-05-26 10:18:03.562 [info] Got login result 200
+2025-05-26 10:18:03.563 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:03.800 [info] Got login result 404
+2025-05-26 10:18:03.803 [info] Got login result 200
+2025-05-26 10:18:03.804 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:04.043 [info] Got login result 404
+2025-05-26 10:18:04.045 [info] Got login result 200
+2025-05-26 10:18:04.046 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:04.284 [info] Got login result 404
+2025-05-26 10:18:04.287 [info] Got login result 200
+2025-05-26 10:18:04.289 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:04.523 [info] Got login result 404
+2025-05-26 10:18:04.530 [info] Got login result 200
+2025-05-26 10:18:04.530 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:04.763 [info] Got login result 404
+2025-05-26 10:18:04.773 [info] Got login result 200
+2025-05-26 10:18:04.774 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:05.004 [info] Got login result 404
+2025-05-26 10:18:05.016 [info] Got login result 200
+2025-05-26 10:18:05.017 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:05.243 [info] Got login result 404
+2025-05-26 10:18:05.256 [info] Got login result 200
+2025-05-26 10:18:05.257 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:05.486 [info] Got login result 404
+2025-05-26 10:18:05.499 [info] Got login result 200
+2025-05-26 10:18:05.501 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:05.724 [info] Got login result 404
+2025-05-26 10:18:05.739 [info] Got login result 200
+2025-05-26 10:18:05.740 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:05.967 [info] Got login result 404
+2025-05-26 10:18:05.983 [info] Got login result 200
+2025-05-26 10:18:05.984 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:06.208 [info] Got login result 404
+2025-05-26 10:18:06.225 [info] Got login result 200
+2025-05-26 10:18:06.226 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:06.447 [info] Got login result 404
+2025-05-26 10:18:06.466 [info] Got login result 200
+2025-05-26 10:18:06.467 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:06.687 [info] Got login result 404
+2025-05-26 10:18:06.708 [info] Got login result 200
+2025-05-26 10:18:06.708 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:06.928 [info] Got login result 404
+2025-05-26 10:18:06.948 [info] Got login result 200
+2025-05-26 10:18:06.949 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:07.168 [info] Got login result 404
+2025-05-26 10:18:07.205 [info] Got login result 200
+2025-05-26 10:18:07.206 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:07.409 [info] Got login result 404
+2025-05-26 10:18:07.446 [info] Got login result 200
+2025-05-26 10:18:07.447 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnb29nbGUtb2F1dGgyfHVzZXJfMDFKR0daOVZWUjdGRlJKMDhZR1Q5OVk0V0QiLCJ0aW1lIjoiMTc0ODIzNDg4MCIsInJhbmRvbW5lc3MiOiJmMGFkNmRjMS1jOGY4LTRlOGYiLCJleHAiOjE3NTM0MTg4ODAsImlzcyI6Imh0dHBzOi8vYXV0aGVudGljYXRpb24uY3Vyc29yLnNoIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF1ZCI6Imh0dHBzOi8vY3Vyc29yLmNvbSIsInR5cGUiOiJzZXNzaW9uIn0.ZLvohe3blFsMrL2duBijNUcGxtg2zxYzCHUnkc13WfU","challenge":"mJ13Gosjck5tg4R0FwIayBte6HmUk9tnRm_P6ldrpYQ","authId":"google-oauth2|user_01JGGZ9VVR7FFRJ08YGT99Y4WD","uuid":"f3b4feba-b871-41e0-b2e1-8dddcc73ef10"}
+2025-05-26 10:18:07.651 [info] Got login result 404
+2025-05-26 10:18:07.892 [info] Got login result 404
+2025-05-26 10:18:08.136 [info] Got login result 404
+2025-05-26 10:18:08.375 [info] Got login result 404
+2025-05-26 10:18:08.615 [info] Got login result 404
+2025-05-26 10:18:08.843 [info] Got login result 404
+2025-05-26 10:18:08.856 [info] Got login result 404
+2025-05-26 10:18:09.097 [info] Got login result 404
+2025-05-26 10:18:09.371 [info] Got login result 404
+2025-05-26 10:18:09.614 [info] Got login result 404
+2025-05-26 10:18:09.882 [info] Got login result 404
+2025-05-26 10:18:09.882 [info] Got login result 404
+2025-05-26 10:18:10.190 [info] Got login result 404
+2025-05-26 10:18:10.496 [info] Got login result 404
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.825 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.826 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.826 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.826 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-26 10:18:26.848 [warning] Missing property "modes" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.848 [warning] Missing property "modes2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.848 [warning] Missing property "modes3" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.848 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.848 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.848 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.849 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.850 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.850 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.850 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.850 [warning] Missing property "eligibleForSnippetLearning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:26.850 [warning] Missing property "isRcpServerEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-05-26 10:18:27.155 [info] Started local extension host with pid 23220.
+2025-05-26 10:18:28.432 [error] [Extension Host] (node:23220) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-05-26 10:18:29.556 [error] Bundled Anysphere extension 'anysphere.remote-ssh' not found
+2025-05-26 10:18:29.556 [error] Bundled Anysphere extension 'anysphere.remote-wsl' not found
+2025-05-26 10:18:29.556 [error] Bundled Anysphere extension 'anysphere.remote-containers' not found
+2025-05-26 10:18:29.920 [info] [perf] Render performance baseline is 18ms
+2025-05-26 12:04:11.897 [error] [aborted] read ECONNRESET: ConnectError: [aborted] read ECONNRESET
+    at t (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2771:205877)
+    at async Object.getTeams (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:44691)
+    at async egt.getTeams (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:203605)
+    at async egt.refreshMembershipType (vscode-file://vscode-app/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:454:196912) [aborted] read ECONNRESET

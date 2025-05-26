@@ -1,0 +1,70 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "45486a1591b6b9abf79d227c322cb44bd50f2d94aa10243f68c668cd2848cf1c",
+    "telemetry.machineId": "1d3b3b82e26bd552de36c422062d4319b696e65140566a5e779c91178dadd432",
+    "telemetry.devDeviceId": "0c1be88c-a526-4b9b-8bb8-fc8fd9617bc7",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/mohak/Desktop/Morphsploit"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1748234794149"
+            }
+        ]
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/mohak/Desktop/Morphsploit": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1748234794149": "__default__profile__"
+        }
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#1e2127",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#7b88a1",
+            "background": "#1e2127",
+            "editorBackground": "#1e2127",
+            "titleBarBackground": "#191c22",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#191c22",
+            "sideBarBackground": "#191c22",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#191c22",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#191c22"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 232,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/mohak/Desktop/Morphsploit",
+            "backupPath": "/home/mohak/.config/Cursor/Backups/c569702de9b83e1c48f01cc6f7342392",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 957
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,9 @@
+2025-05-26 10:16:33.396 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/0.50.7/1d3b3b82e26bd552de36c422062d4319b696e65140566a5e779c91178dadd432/stable
+2025-05-26 10:16:33.397 [info] update#setState idle
+2025-05-26 10:17:03.398 [info] update#setState checking for updates
+2025-05-26 10:17:03.648 [info] update#setState idle
+2025-05-26 10:18:26.214 [info] Extension host with pid 21985 exited with code: 0, signal: unknown.
+2025-05-26 10:18:26.250 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 21960]: crashed with code 15 and reason 'killed'
+2025-05-26 11:17:03.428 [info] update#setState checking for updates
+2025-05-26 11:17:04.965 [info] update#setState idle
+2025-05-26 12:11:04.751 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: cursorai/serverConfig Length: 1970

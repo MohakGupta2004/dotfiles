@@ -1,0 +1,51 @@
+2025-05-26 10:09:22.965 [info] [main] Log level: Info
+2025-05-26 10:09:22.965 [info] [main] Validating found git in: "git"
+2025-05-26 10:09:22.965 [info] [main] Using git "2.49.0" from "git"
+2025-05-26 10:09:22.965 [info] [Model][doInitialScan] Initial repository scan started
+2025-05-26 10:09:22.965 [info] > git rev-parse --show-toplevel [3ms]
+2025-05-26 10:09:22.965 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-05-26 10:09:22.965 [info] [Model][openRepository] Opened repository (path): /home/mohak/Desktop/Morphsploit
+2025-05-26 10:09:22.965 [info] [Model][openRepository] Opened repository (real path): /home/mohak/Desktop/Morphsploit
+2025-05-26 10:09:22.966 [info] > git rev-parse --show-toplevel [2ms]
+2025-05-26 10:09:22.967 [info] > git config --get commit.template [7ms]
+2025-05-26 10:09:22.992 [info] > git rev-parse --show-toplevel [19ms]
+2025-05-26 10:09:23.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-05-26 10:09:23.008 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mohak/Desktop/Morphsploit/.git/refs/remotes/origin/main'
+2025-05-26 10:09:23.008 [info] > git rev-parse --show-toplevel [4ms]
+2025-05-26 10:09:23.008 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-05-26 10:09:23.009 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-05-26 10:09:23.018 [info] > git status -z -uall [5ms]
+2025-05-26 10:09:23.019 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-26 10:09:23.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-26 10:09:23.044 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-05-26 10:09:23.044 [warning] [Git][config] git config failed: Failed to execute git
+2025-05-26 10:09:23.048 [info] > git config --get commit.template [10ms]
+2025-05-26 10:09:23.070 [info] > git reflog main --grep-reflog=branch: Created from *. [22ms]
+2025-05-26 10:09:23.075 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-05-26 10:09:23.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-05-26 10:09:23.083 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mohak/Desktop/Morphsploit/.git/refs/remotes/origin/main'
+2025-05-26 10:09:23.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-05-26 10:09:23.088 [info] > git config --add --local branch.main.vscode-merge-base origin/main [2ms]
+2025-05-26 10:09:23.088 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-05-26 10:09:23.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-05-26 10:09:23.102 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-05-26 10:09:23.105 [info] > git config --get commit.template [9ms]
+2025-05-26 10:09:23.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-05-26 10:09:23.114 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-05-26 10:09:23.117 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mohak/Desktop/Morphsploit/.git/refs/remotes/origin/main'
+2025-05-26 10:09:23.117 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-05-26 10:09:23.121 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-05-26 10:09:23.127 [info] > git status -z -uall [4ms]
+2025-05-26 10:09:23.127 [info] > git diff --name-status -z --diff-filter=ADMR 2d0cf97ac0f35ee452c4e50e07d170f39f1e06ff...refs/remotes/origin/main [7ms]
+2025-05-26 10:09:23.128 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-05-26 10:09:23.479 [info] > git check-ignore -v -z --stdin [3ms]
+2025-05-26 10:09:24.182 [info] > git config --get commit.template [8ms]
+2025-05-26 10:09:24.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-05-26 10:09:24.187 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mohak/Desktop/Morphsploit/.git/refs/remotes/origin/main'
+2025-05-26 10:09:24.188 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-05-26 10:09:24.197 [info] > git status -z -uall [4ms]
+2025-05-26 10:09:24.198 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-05-26 10:09:26.296 [info] > git check-ignore -v -z --stdin [2ms]
+2025-05-26 10:09:27.519 [info] > git show --textconv :commands/use.go [5ms]
+2025-05-26 10:09:27.520 [info] > git ls-files --stage -- commands/use.go [1ms]
+2025-05-26 10:09:27.524 [info] > git cat-file -s fb53c0328b85e91b73034f95a84c96f5934752e7 [1ms]

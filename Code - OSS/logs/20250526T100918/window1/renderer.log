@@ -1,0 +1,6 @@
+2025-05-26 10:09:19.441 [info] Started local extension host with pid 16375.
+2025-05-26 10:09:19.519 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mohak/.vscode-oss/extensions
+2025-05-26 10:09:19.521 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-05-26 10:09:19.716 [info] ComputeTargetPlatform: linux-x64
+2025-05-26 10:09:19.795 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mohak/.vscode-oss/extensions
+2025-05-26 10:09:22.330 [info] [perf] Render performance baseline is 24ms

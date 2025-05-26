@@ -1,0 +1,574 @@
+2025-05-26 10:16:37.896 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-05-26 10:16:37.896 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-05-26 10:16:37.896 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-05-26 10:16:38.131 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-05-26 10:17:16.979 [warning] Failed to get symbolic ref: Failed to execute git
+2025-05-26 10:17:16.982 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '.git/HEAD')
+2025-05-26 10:17:17.026 [warning] Failed to get branches from remote: Failed to execute git
+2025-05-26 10:17:17.038 [warning] Failed to get default branch from git config: Failed to execute git
+2025-05-26 10:18:01.419 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:01.419 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:01.419 [error] NoWorkspaceUriError
+2025-05-26 10:18:01.631 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:01.631 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:01.631 [error] NoWorkspaceUriError
+2025-05-26 10:18:01.878 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:01.878 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:01.878 [error] NoWorkspaceUriError
+2025-05-26 10:18:02.120 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:02.120 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:02.121 [error] NoWorkspaceUriError
+2025-05-26 10:18:02.364 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:02.364 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:02.365 [error] NoWorkspaceUriError
+2025-05-26 10:18:02.605 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:02.605 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:02.605 [error] NoWorkspaceUriError
+2025-05-26 10:18:02.845 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:02.845 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:02.845 [error] NoWorkspaceUriError
+2025-05-26 10:18:03.085 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:03.085 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:03.085 [error] NoWorkspaceUriError
+2025-05-26 10:18:03.326 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:03.327 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:03.327 [error] NoWorkspaceUriError
+2025-05-26 10:18:03.567 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:03.567 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:03.567 [error] NoWorkspaceUriError
+2025-05-26 10:18:03.810 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:03.810 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:03.810 [error] NoWorkspaceUriError
+2025-05-26 10:18:04.051 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:04.051 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:04.051 [error] NoWorkspaceUriError
+2025-05-26 10:18:04.294 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:04.294 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:04.294 [error] NoWorkspaceUriError
+2025-05-26 10:18:04.535 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:04.535 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:04.535 [error] NoWorkspaceUriError
+2025-05-26 10:18:04.779 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:04.779 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:04.779 [error] NoWorkspaceUriError
+2025-05-26 10:18:05.021 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:05.021 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:05.021 [error] NoWorkspaceUriError
+2025-05-26 10:18:05.262 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:05.262 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:05.262 [error] NoWorkspaceUriError
+2025-05-26 10:18:05.506 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:05.506 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:05.506 [error] NoWorkspaceUriError
+2025-05-26 10:18:05.743 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:05.743 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:05.743 [error] NoWorkspaceUriError
+2025-05-26 10:18:05.990 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:05.990 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:05.990 [error] NoWorkspaceUriError
+2025-05-26 10:18:06.232 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:06.232 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:06.232 [error] NoWorkspaceUriError
+2025-05-26 10:18:06.472 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:06.472 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:06.472 [error] NoWorkspaceUriError
+2025-05-26 10:18:06.714 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:06.714 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:06.714 [error] NoWorkspaceUriError
+2025-05-26 10:18:06.953 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:06.953 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:06.953 [error] NoWorkspaceUriError
+2025-05-26 10:18:07.211 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:07.211 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:07.211 [error] NoWorkspaceUriError
+2025-05-26 10:18:07.449 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:07.449 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:07.449 [error] NoWorkspaceUriError
+2025-05-26 10:18:29.393 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:29.393 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:29.393 [info] Making keys for a new index
+2025-05-26 10:18:29.415 [info] Using the default key from the server for a new index
+2025-05-26 10:18:29.415 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-26 10:18:29.575 [info] Using existing keys for an index
+2025-05-26 10:18:29.575 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-26 10:18:29.664 [info] Using existing keys for an index
+2025-05-26 10:18:29.664 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-26 10:18:29.742 [info] Doing a startup handshake.
+2025-05-26 10:18:29.986 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:18:30.002 [info] Finished computing merkle tree in 17.21544300000005 ms.
+2025-05-26 10:18:30.002 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:18:30.006 [info] Computed simhash vector of length: 256
+2025-05-26 10:18:30.006 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:18:30.006 [info] Handshake start
+2025-05-26 10:18:30.008 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/mohak/.config/Cursor/User/workspaceStorage/aec67dab227ef7f405b912bf296c41c7/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-05-26 10:18:31.033 [info] Handshake timing: 1028.9011409999998, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-05-26 10:18:31.033 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-05-26 10:18:31.033 [info] Starting fast remote sync.
+2025-05-26 10:18:31.034 [info] Total num embeddable files: 15
+2025-05-26 10:18:31.034 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:18:31.035 [info] Starting repository upload from scratch.
+2025-05-26 10:18:31.036 [info] Uploading 15 files.
+2025-05-26 10:18:31.038 [info] Total number of files to embed: 15
+2025-05-26 10:18:31.038 [info] Not aborted
+2025-05-26 10:18:31.038 [info] Starting while loop.
+2025-05-26 10:18:31.038 [info] fileQueue.length: 15
+2025-05-26 10:18:31.038 [info] fileQueue.length: 14
+2025-05-26 10:18:31.038 [info] fileQueue.length: 13
+2025-05-26 10:18:31.038 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 13
+2025-05-26 10:18:31.482 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 10:18:31.482 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 10:18:31.484 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:18:31.484 [info] Aborting indexing job.
+2025-05-26 10:18:31.485 [info] Using existing keys for an index
+2025-05-26 10:18:31.485 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-05-26 10:18:31.485 [info] Completed job unsuccessfully, will retry: ./README.md error: Bad unexpected error
+2025-05-26 10:18:31.485 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 1 fileQueue.length: 14
+2025-05-26 10:18:31.486 [info] Indexing job successfully done or aborted.
+2025-05-26 10:18:31.487 [info] Doing a startup handshake.
+2025-05-26 10:18:31.504 [info] Finished computing merkle tree in 2.698750000000473 ms.
+2025-05-26 10:18:31.504 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:18:31.506 [info] Computed simhash vector of length: 256
+2025-05-26 10:18:31.506 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:18:31.506 [info] Handshake start
+2025-05-26 10:18:32.297 [info] Handshake timing: 792.1293379999997, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-05-26 10:18:32.297 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-05-26 10:18:32.297 [info] Starting fast remote sync.
+2025-05-26 10:18:32.298 [info] Total num embeddable files: 15
+2025-05-26 10:18:32.298 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:18:32.298 [info] Starting repository upload from scratch.
+2025-05-26 10:18:32.298 [info] Uploading 15 files.
+2025-05-26 10:18:32.300 [info] Total number of files to embed: 15
+2025-05-26 10:18:32.300 [info] Not aborted
+2025-05-26 10:18:32.300 [info] Starting while loop.
+2025-05-26 10:18:32.300 [info] fileQueue.length: 15
+2025-05-26 10:18:32.300 [info] fileQueue.length: 14
+2025-05-26 10:18:32.300 [info] fileQueue.length: 13
+2025-05-26 10:18:32.300 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 13
+2025-05-26 10:18:32.569 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./module/csrf/options.go
+2025-05-26 10:18:32.569 [info] fileQueue.length: 12
+2025-05-26 10:18:32.569 [info] fileQueue.length: 11
+2025-05-26 10:18:32.569 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 11
+2025-05-26 10:18:32.576 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./README.md
+2025-05-26 10:18:32.576 [info] fileQueue.length: 10
+2025-05-26 10:18:32.576 [info] fileQueue.length: 9
+2025-05-26 10:18:32.576 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 9
+2025-05-26 10:18:33.330 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./module/csrf/set.go
+2025-05-26 10:18:33.331 [info] fileQueue.length: 8
+2025-05-26 10:18:33.331 [info] fileQueue.length: 7
+2025-05-26 10:18:33.331 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 5 fileQueue.length: 7
+2025-05-26 10:18:33.338 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./main.go
+2025-05-26 10:18:33.338 [info] fileQueue.length: 6
+2025-05-26 10:18:33.338 [info] fileQueue.length: 5
+2025-05-26 10:18:33.338 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 6 fileQueue.length: 5
+2025-05-26 10:18:34.258 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./Makefile
+2025-05-26 10:18:34.258 [info] fileQueue.length: 4
+2025-05-26 10:18:34.258 [info] fileQueue.length: 3
+2025-05-26 10:18:34.258 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 7 fileQueue.length: 3
+2025-05-26 10:18:34.261 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./module/csrf/nodefense.go
+2025-05-26 10:18:34.261 [info] fileQueue.length: 2
+2025-05-26 10:18:34.261 [info] fileQueue.length: 1
+2025-05-26 10:18:34.261 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 8 fileQueue.length: 1
+2025-05-26 10:18:34.268 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./repl.go
+2025-05-26 10:18:34.268 [info] fileQueue.length: 0
+2025-05-26 10:18:34.268 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 9 fileQueue.length: 0
+2025-05-26 10:18:34.335 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./go.mod
+2025-05-26 10:18:34.335 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 10 fileQueue.length: 0
+2025-05-26 10:18:34.486 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./commands/showOptions.go
+2025-05-26 10:18:34.486 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 11 fileQueue.length: 0
+2025-05-26 10:18:34.550 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./go.sum
+2025-05-26 10:18:34.550 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 12 fileQueue.length: 0
+2025-05-26 10:18:35.285 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./.gitignore
+2025-05-26 10:18:35.285 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 13 fileQueue.length: 0
+2025-05-26 10:18:35.287 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./commands/echo.go
+2025-05-26 10:18:35.287 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 14 fileQueue.length: 0
+2025-05-26 10:18:35.289 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./commands/exit.go
+2025-05-26 10:18:35.289 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 15 fileQueue.length: 0
+2025-05-26 10:18:35.301 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./commands/set.go
+2025-05-26 10:18:35.301 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 16 fileQueue.length: 0
+2025-05-26 10:18:36.299 [info] Completed job successfully: 7c73ef7b-3c8a-492b-be73-617ebdfdb5c5 ./commands/use.go
+2025-05-26 10:18:36.299 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 17 fileQueue.length: 0
+2025-05-26 10:18:36.613 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-05-26 10:18:37.122 [info] Finished indexing repository.
+2025-05-26 10:18:37.122 [info] Indexing job successfully done or aborted.
+2025-05-26 10:23:27.826 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:23:31.490 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:23:31.490 [info] Aborting indexing job.
+2025-05-26 10:23:31.490 [info] Setting global status from status tracker: synced
+2025-05-26 10:23:31.490 [info] Doing a startup handshake.
+2025-05-26 10:23:31.498 [info] Finished computing merkle tree in 1.4704819999751635 ms.
+2025-05-26 10:23:31.499 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:23:31.502 [info] Computed simhash vector of length: 256
+2025-05-26 10:23:31.502 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:23:31.502 [info] Handshake start
+2025-05-26 10:23:31.826 [info] Handshake timing: 325.6961959999753, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:23:31.826 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:23:31.826 [info] Starting fast remote sync.
+2025-05-26 10:23:31.826 [info] Total num embeddable files: 15
+2025-05-26 10:23:31.827 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:23:31.828 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:23:32.116 [info] Finished indexing repository.
+2025-05-26 10:23:32.116 [info] Indexing job successfully done or aborted.
+2025-05-26 10:28:27.102 [info] Get user commits took 24.465445999987423ms for 10 commits
+2025-05-26 10:28:28.112 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:28:31.490 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:28:31.490 [info] Aborting indexing job.
+2025-05-26 10:28:31.490 [info] Setting global status from status tracker: synced
+2025-05-26 10:28:31.490 [info] Doing a startup handshake.
+2025-05-26 10:28:31.497 [info] Finished computing merkle tree in 1.2316420000279322 ms.
+2025-05-26 10:28:31.497 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:28:31.500 [info] Computed simhash vector of length: 256
+2025-05-26 10:28:31.500 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:28:31.500 [info] Handshake start
+2025-05-26 10:28:31.772 [info] Handshake timing: 273.4323859999422, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:28:31.772 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:28:31.772 [info] Starting fast remote sync.
+2025-05-26 10:28:31.772 [info] Total num embeddable files: 15
+2025-05-26 10:28:31.772 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:28:31.773 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:28:32.084 [info] Finished indexing repository.
+2025-05-26 10:28:32.084 [info] Indexing job successfully done or aborted.
+2025-05-26 10:33:28.112 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:33:31.490 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:33:31.490 [info] Aborting indexing job.
+2025-05-26 10:33:31.490 [info] Setting global status from status tracker: synced
+2025-05-26 10:33:31.490 [info] Doing a startup handshake.
+2025-05-26 10:33:31.497 [info] Finished computing merkle tree in 1.6520170000148937 ms.
+2025-05-26 10:33:31.498 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:33:31.501 [info] Computed simhash vector of length: 256
+2025-05-26 10:33:31.501 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:33:31.501 [info] Handshake start
+2025-05-26 10:33:31.770 [info] Handshake timing: 271.42917399993166, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:33:31.770 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:33:31.770 [info] Starting fast remote sync.
+2025-05-26 10:33:31.770 [info] Total num embeddable files: 15
+2025-05-26 10:33:31.770 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:33:31.771 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:33:32.028 [info] Finished indexing repository.
+2025-05-26 10:33:32.028 [info] Indexing job successfully done or aborted.
+2025-05-26 10:38:27.096 [info] Get user commits took 19.040405000094324ms for 10 commits
+2025-05-26 10:38:31.490 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:38:31.490 [info] Aborting indexing job.
+2025-05-26 10:38:31.490 [info] Setting global status from status tracker: synced
+2025-05-26 10:38:31.490 [info] Doing a startup handshake.
+2025-05-26 10:38:31.495 [info] Finished computing merkle tree in 1.4141400000080466 ms.
+2025-05-26 10:38:31.496 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:38:31.498 [info] Computed simhash vector of length: 256
+2025-05-26 10:38:31.498 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:38:31.498 [info] Handshake start
+2025-05-26 10:38:31.771 [info] Handshake timing: 274.05102899996564, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:38:31.771 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:38:31.771 [info] Starting fast remote sync.
+2025-05-26 10:38:31.774 [info] Total num embeddable files: 15
+2025-05-26 10:38:31.774 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:38:31.776 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:38:32.047 [info] Finished indexing repository.
+2025-05-26 10:38:32.047 [info] Indexing job successfully done or aborted.
+2025-05-26 10:39:08.112 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:43:31.492 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:43:31.492 [info] Aborting indexing job.
+2025-05-26 10:43:31.492 [info] Setting global status from status tracker: synced
+2025-05-26 10:43:31.492 [info] Doing a startup handshake.
+2025-05-26 10:43:31.503 [info] Finished computing merkle tree in 5.903680999996141 ms.
+2025-05-26 10:43:31.503 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:43:31.505 [info] Computed simhash vector of length: 256
+2025-05-26 10:43:31.505 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:43:31.505 [info] Handshake start
+2025-05-26 10:43:31.851 [info] Handshake timing: 347.6875360000413, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:43:31.851 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:43:31.852 [info] Starting fast remote sync.
+2025-05-26 10:43:31.854 [info] Total num embeddable files: 15
+2025-05-26 10:43:31.854 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:43:31.855 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:43:32.117 [info] Finished indexing repository.
+2025-05-26 10:43:32.117 [info] Indexing job successfully done or aborted.
+2025-05-26 10:44:08.157 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:48:27.099 [info] Get user commits took 23.93665499985218ms for 10 commits
+2025-05-26 10:48:31.492 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:48:31.492 [info] Aborting indexing job.
+2025-05-26 10:48:31.492 [info] Setting global status from status tracker: synced
+2025-05-26 10:48:31.492 [info] Doing a startup handshake.
+2025-05-26 10:48:31.499 [info] Finished computing merkle tree in 1.587753999978304 ms.
+2025-05-26 10:48:31.499 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:48:31.502 [info] Computed simhash vector of length: 256
+2025-05-26 10:48:31.502 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:48:31.502 [info] Handshake start
+2025-05-26 10:48:31.782 [info] Handshake timing: 281.19963699998334, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:48:31.782 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:48:31.782 [info] Starting fast remote sync.
+2025-05-26 10:48:31.782 [info] Total num embeddable files: 15
+2025-05-26 10:48:31.782 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:48:31.783 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:48:32.060 [info] Finished indexing repository.
+2025-05-26 10:48:32.060 [info] Indexing job successfully done or aborted.
+2025-05-26 10:49:08.152 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:53:31.494 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:53:31.494 [info] Aborting indexing job.
+2025-05-26 10:53:31.494 [info] Setting global status from status tracker: synced
+2025-05-26 10:53:31.494 [info] Doing a startup handshake.
+2025-05-26 10:53:31.498 [info] Finished computing merkle tree in 0.6464780000969768 ms.
+2025-05-26 10:53:31.498 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:53:31.499 [info] Computed simhash vector of length: 256
+2025-05-26 10:53:31.499 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:53:31.499 [info] Handshake start
+2025-05-26 10:53:31.814 [info] Handshake timing: 315.0027200002223, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:53:31.814 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:53:31.814 [info] Starting fast remote sync.
+2025-05-26 10:53:31.814 [info] Total num embeddable files: 15
+2025-05-26 10:53:31.814 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:53:31.816 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:53:32.093 [info] Finished indexing repository.
+2025-05-26 10:53:32.093 [info] Indexing job successfully done or aborted.
+2025-05-26 10:54:08.145 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 10:58:27.096 [info] Get user commits took 21.814850999973714ms for 10 commits
+2025-05-26 10:58:31.494 [info] multiCodebaseIndexingJob dispose
+2025-05-26 10:58:31.494 [info] Aborting indexing job.
+2025-05-26 10:58:31.494 [info] Setting global status from status tracker: synced
+2025-05-26 10:58:31.494 [info] Doing a startup handshake.
+2025-05-26 10:58:31.499 [info] Finished computing merkle tree in 1.7309230002574623 ms.
+2025-05-26 10:58:31.500 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:58:31.502 [info] Computed simhash vector of length: 256
+2025-05-26 10:58:31.502 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 10:58:31.502 [info] Handshake start
+2025-05-26 10:58:31.845 [info] Handshake timing: 344.46681299991906, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:58:31.845 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 10:58:31.846 [info] Starting fast remote sync.
+2025-05-26 10:58:31.849 [info] Total num embeddable files: 15
+2025-05-26 10:58:31.849 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 10:58:31.850 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 10:58:32.107 [info] Finished indexing repository.
+2025-05-26 10:58:32.107 [info] Indexing job successfully done or aborted.
+2025-05-26 10:59:08.155 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:03:31.495 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:03:31.495 [info] Aborting indexing job.
+2025-05-26 11:03:31.495 [info] Setting global status from status tracker: synced
+2025-05-26 11:03:31.495 [info] Doing a startup handshake.
+2025-05-26 11:03:31.503 [info] Finished computing merkle tree in 1.3737569996155798 ms.
+2025-05-26 11:03:31.504 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:03:31.506 [info] Computed simhash vector of length: 256
+2025-05-26 11:03:31.506 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:03:31.506 [info] Handshake start
+2025-05-26 11:03:31.775 [info] Handshake timing: 270.29774799989536, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:03:31.775 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:03:31.775 [info] Starting fast remote sync.
+2025-05-26 11:03:31.775 [info] Total num embeddable files: 15
+2025-05-26 11:03:31.775 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:03:31.777 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:03:32.038 [info] Finished indexing repository.
+2025-05-26 11:03:32.038 [info] Indexing job successfully done or aborted.
+2025-05-26 11:04:08.152 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:08:31.495 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:08:31.495 [info] Aborting indexing job.
+2025-05-26 11:08:31.495 [info] Setting global status from status tracker: synced
+2025-05-26 11:08:31.495 [info] Doing a startup handshake.
+2025-05-26 11:08:31.502 [info] Finished computing merkle tree in 1.337947000283748 ms.
+2025-05-26 11:08:31.503 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:08:31.505 [info] Computed simhash vector of length: 256
+2025-05-26 11:08:31.505 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:08:31.505 [info] Handshake start
+2025-05-26 11:08:31.807 [info] Handshake timing: 303.3992880000733, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:08:31.807 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:08:31.807 [info] Starting fast remote sync.
+2025-05-26 11:08:31.807 [info] Total num embeddable files: 15
+2025-05-26 11:08:31.807 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:08:31.808 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:08:32.070 [info] Finished indexing repository.
+2025-05-26 11:08:32.071 [info] Indexing job successfully done or aborted.
+2025-05-26 11:09:08.149 [info] Get user commits took 44.17115900013596ms for 10 commits
+2025-05-26 11:09:08.159 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:13:31.497 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:13:31.497 [info] Aborting indexing job.
+2025-05-26 11:13:31.497 [info] Setting global status from status tracker: synced
+2025-05-26 11:13:31.497 [info] Doing a startup handshake.
+2025-05-26 11:13:31.506 [info] Finished computing merkle tree in 1.2699259999208152 ms.
+2025-05-26 11:13:31.506 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:13:31.509 [info] Computed simhash vector of length: 256
+2025-05-26 11:13:31.509 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:13:31.509 [info] Handshake start
+2025-05-26 11:13:35.513 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:13:35.513 [info] Handshake start
+2025-05-26 11:13:43.519 [warning] Retrying handshake with timeout 8000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:13:43.519 [info] Handshake start
+2025-05-26 11:13:59.530 [warning] Retrying handshake with timeout 16000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:13:59.530 [info] Handshake start
+2025-05-26 11:14:08.143 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:14:31.534 [warning] Retrying handshake with timeout 32000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:14:31.534 [info] Handshake start
+2025-05-26 11:14:31.896 [info] Handshake timing: 363.2100470000878, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:14:31.896 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:14:31.896 [info] Starting fast remote sync.
+2025-05-26 11:14:31.896 [info] Total num embeddable files: 15
+2025-05-26 11:14:31.896 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:14:31.897 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:14:42.700 [info] Finished indexing repository.
+2025-05-26 11:14:42.700 [info] Indexing job successfully done or aborted.
+2025-05-26 11:18:31.497 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:18:31.497 [info] Aborting indexing job.
+2025-05-26 11:18:31.497 [info] Setting global status from status tracker: synced
+2025-05-26 11:18:31.497 [info] Doing a startup handshake.
+2025-05-26 11:18:31.504 [info] Finished computing merkle tree in 1.2425199998542666 ms.
+2025-05-26 11:18:31.504 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:18:31.506 [info] Computed simhash vector of length: 256
+2025-05-26 11:18:31.506 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:18:31.506 [info] Handshake start
+2025-05-26 11:18:31.780 [info] Handshake timing: 275.0466200001538, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:18:31.780 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:18:31.780 [info] Starting fast remote sync.
+2025-05-26 11:18:31.780 [info] Total num embeddable files: 15
+2025-05-26 11:18:31.780 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:18:31.781 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:18:32.043 [info] Finished indexing repository.
+2025-05-26 11:18:32.043 [info] Indexing job successfully done or aborted.
+2025-05-26 11:19:08.100 [info] Get user commits took 21.575306999962777ms for 10 commits
+2025-05-26 11:19:08.150 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:23:31.498 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:23:31.498 [info] Aborting indexing job.
+2025-05-26 11:23:31.498 [info] Setting global status from status tracker: synced
+2025-05-26 11:23:31.498 [info] Doing a startup handshake.
+2025-05-26 11:23:31.503 [info] Finished computing merkle tree in 1.600974999833852 ms.
+2025-05-26 11:23:31.504 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:23:31.506 [info] Computed simhash vector of length: 256
+2025-05-26 11:23:31.506 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:23:31.506 [info] Handshake start
+2025-05-26 11:23:35.509 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:23:35.509 [info] Handshake start
+2025-05-26 11:23:35.795 [info] Handshake timing: 287.4654299998656, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:23:35.795 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:23:35.796 [info] Starting fast remote sync.
+2025-05-26 11:23:35.796 [info] Total num embeddable files: 15
+2025-05-26 11:23:35.796 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:23:35.797 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:23:36.103 [info] Finished indexing repository.
+2025-05-26 11:23:36.103 [info] Indexing job successfully done or aborted.
+2025-05-26 11:24:08.131 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:28:31.498 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:28:31.498 [info] Aborting indexing job.
+2025-05-26 11:28:31.498 [info] Setting global status from status tracker: synced
+2025-05-26 11:28:31.498 [info] Doing a startup handshake.
+2025-05-26 11:28:31.504 [info] Finished computing merkle tree in 0.5633179992437363 ms.
+2025-05-26 11:28:31.504 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:28:31.505 [info] Computed simhash vector of length: 256
+2025-05-26 11:28:31.505 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:28:31.505 [info] Handshake start
+2025-05-26 11:28:35.509 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:28:35.509 [info] Handshake start
+2025-05-26 11:28:43.515 [warning] Retrying handshake with timeout 8000. Error:  [deadline_exceeded] the operation timed out
+2025-05-26 11:28:43.515 [info] Handshake start
+2025-05-26 11:28:47.706 [info] Handshake timing: 4191.883302000351, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:28:47.706 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:28:47.706 [info] Starting fast remote sync.
+2025-05-26 11:28:47.707 [info] Total num embeddable files: 15
+2025-05-26 11:28:47.707 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:28:47.708 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:28:48.423 [info] Finished indexing repository.
+2025-05-26 11:28:48.423 [info] Indexing job successfully done or aborted.
+2025-05-26 11:29:08.135 [info] Get user commits took 57.1549930004403ms for 10 commits
+2025-05-26 11:29:08.145 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:33:31.500 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:33:31.500 [info] Aborting indexing job.
+2025-05-26 11:33:31.500 [info] Setting global status from status tracker: synced
+2025-05-26 11:33:31.500 [info] Doing a startup handshake.
+2025-05-26 11:33:31.533 [info] Finished computing merkle tree in 0.5578580005094409 ms.
+2025-05-26 11:33:31.533 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:33:31.534 [info] Computed simhash vector of length: 256
+2025-05-26 11:33:31.534 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:33:31.534 [info] Handshake start
+2025-05-26 11:33:31.866 [info] Handshake timing: 332.8477490004152, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:33:31.866 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:33:31.866 [info] Starting fast remote sync.
+2025-05-26 11:33:31.867 [info] Total num embeddable files: 15
+2025-05-26 11:33:31.867 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:33:31.868 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:33:32.123 [info] Finished indexing repository.
+2025-05-26 11:33:32.123 [info] Indexing job successfully done or aborted.
+2025-05-26 11:34:08.135 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 11:38:31.500 [info] multiCodebaseIndexingJob dispose
+2025-05-26 11:38:31.500 [info] Aborting indexing job.
+2025-05-26 11:38:31.500 [info] Setting global status from status tracker: synced
+2025-05-26 11:38:31.500 [info] Doing a startup handshake.
+2025-05-26 11:38:31.509 [info] Finished computing merkle tree in 1.2880930006504059 ms.
+2025-05-26 11:38:31.510 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:38:31.512 [info] Computed simhash vector of length: 256
+2025-05-26 11:38:31.512 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 11:38:31.512 [info] Handshake start
+2025-05-26 11:38:31.807 [info] Handshake timing: 296.9882390005514, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:38:31.808 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 11:38:31.808 [info] Starting fast remote sync.
+2025-05-26 11:38:31.808 [info] Total num embeddable files: 15
+2025-05-26 11:38:31.808 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 11:38:31.809 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 11:38:32.076 [info] Finished indexing repository.
+2025-05-26 11:38:32.076 [info] Indexing job successfully done or aborted.
+2025-05-26 11:39:08.095 [info] Get user commits took 16.38295399956405ms for 10 commits
+2025-05-26 11:39:08.161 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+
+2025-05-26 12:07:27.076 [info] multiCodebaseIndexingJob dispose
+2025-05-26 12:07:27.076 [info] Aborting indexing job.
+2025-05-26 12:07:27.076 [info] Setting global status from status tracker: synced
+2025-05-26 12:07:27.076 [info] Doing a startup handshake.
+2025-05-26 12:07:27.085 [info] Finished computing merkle tree in 1.2493239995092154 ms.
+2025-05-26 12:07:27.086 [info] Doing the initial handshake with hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 12:07:27.088 [info] Computed simhash vector of length: 256
+2025-05-26 12:07:27.088 [info] Path key hash: 98394bef7bb3008feddccc5ca125ee9ef3826a8e300ad8cc15a112140551b56e
+2025-05-26 12:07:27.088 [info] Handshake start
+2025-05-26 12:07:27.090 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/mohak/.config/Cursor/User/workspaceStorage/aec67dab227ef7f405b912bf296c41c7/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-05-26 12:07:27.382 [warning] Error computing full high level folder description. Ignoring. [aborted] read ECONNRESET
+2025-05-26 12:07:27.620 [error] Error Checking Connection: [aborted] read ECONNRESET
+2025-05-26 12:07:27.621 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-05-26 12:07:27.621 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-05-26 12:07:29.384 [warning] Retrying handshake with timeout 4000. Error:  [aborted] read ECONNRESET
+2025-05-26 12:07:29.384 [info] Handshake start
+2025-05-26 12:07:32.809 [info] Handshake timing: 3426.2209240002558, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 12:07:32.809 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"7c73ef7b-3c8a-492b-be73-617ebdfdb5c5","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2025-05-26 12:07:32.809 [info] Starting fast remote sync.
+2025-05-26 12:07:32.810 [info] Total num embeddable files: 15
+2025-05-26 12:07:32.810 [info] Root hash: ac05510bbfb960dc92d5241789e7ecba1b27e0f397f0ed119ed55f4c49961f3a
+2025-05-26 12:07:32.811 [info] Finishing sync (hasUpdates: false, isErr: false)
+2025-05-26 12:07:33.115 [info] Finished indexing repository.
+2025-05-26 12:07:33.115 [info] Indexing job successfully done or aborted.
+2025-05-26 12:08:03.723 [error] Git command failed: git cat-file -e origin/main:.cursor/environment.json Command failed: git cat-file -e origin/main:.cursor/environment.json
+fatal: path '.cursor/environment.json' does not exist in 'origin/main'
+

@@ -1,0 +1,43 @@
+2025-05-26 10:16:36.659 [info] Extension host with pid 21985 started
+2025-05-26 10:16:36.671 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-26 10:16:36.695 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-26 10:16:36.708 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-26 10:16:36.763 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-26 10:16:37.017 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-26 10:16:37.024 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-26 10:16:37.087 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-26 10:16:37.155 [info] Eager extensions activated
+2025-05-26 10:16:37.164 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.342 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.404 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.623 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.678 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.819 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:16:37.822 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:26.191 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-26 10:18:26.212 [error] Error: Channel has been closed
+	at n (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2438)
+	at Object.appendLine (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:2577)
+	at c (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1558023)
+	at t.deactivate (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:1559679)
+	at /tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:285747
+	at t.deactivate (/tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/extensions/cursor-always-local/dist/main.js:2:285806)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async Promise.all (index 1)
+	at async Joe.$ (file:///tmp/.mount_cursord4knsj/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:139:10141)
+2025-05-26 10:18:26.213 [info] Extension host with pid 21985 exiting with code 0
+2025-05-26 10:18:28.473 [info] Extension host with pid 23220 started
+2025-05-26 10:18:28.473 [info] Skipping acquiring lock for /home/mohak/.config/Cursor/User/workspaceStorage/aec67dab227ef7f405b912bf296c41c7.
+2025-05-26 10:18:28.494 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-26 10:18:28.512 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-26 10:18:28.563 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-26 10:18:28.644 [info] Eager extensions activated
+2025-05-26 10:18:28.663 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:28.843 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:28.887 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:29.063 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:29.124 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:29.276 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:29.280 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-26 10:18:29.400 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-26 10:18:29.672 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
