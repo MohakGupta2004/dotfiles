@@ -1,1 +1,0 @@
-{"timestamp":1747716510011,"paths":["./main.go","./repl.go","./Makefile","./go.mod","./README.md","./.gitignore","./go.sum","./commands/showOptions.go","./commands/use.go","./commands/set.go","./commands/exit.go","./commands/echo.go","./module/csrf/nodefense.go","./module/csrf/set.go","./module/csrf/options.go"]}
