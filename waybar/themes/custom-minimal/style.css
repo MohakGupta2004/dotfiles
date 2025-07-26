@@ -1,0 +1,272 @@
+/* Unixporn Arch Linux Style Palette */
+@define-color background #282A36; /* Darker, slightly desaturated background (similar to Dracula/Nord base00) */
+@define-color foreground #F8F8F2; /* Light text (similar to Dracula/Nord fg) */
+@define-color comment #6272A4;   /* Muted comment/secondary text */
+@define-color cyan #8BE9FD;      /* Accent 1 (cyan) */
+@define-color green #50FA7B;     /* Accent 2 (green) */
+@define-color orange #FFB86C;    /* Accent 3 (orange) */
+@define-color pink #FF79C6;      /* Accent 4 (pink) */
+@define-color purple #BD93F9;    /* Accent 5 (purple) */
+@define-color red #FF5555;       /* Alert/Error (red) */
+@define-color yellow #F1FA8C;    /* Warning (yellow) */
+
+/* General Waybar Appearance */
+window#waybar {
+    background-color: @background; /* Solid dark background */
+    border-bottom: 2px solid @purple; /* Prominent accent border */
+    font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", "Font Awesome 6 Free", sans-serif; /* Common dev fonts */
+    font-size: 14px;
+    color: @foreground;
+    padding: 0px; /* No extra padding for the bar itself */
+    border-radius: 0px; /* Sharp corners */
+}
+
+/* Grouping of modules for clean separation */
+.modules-left,
+.modules-right,
+.modules-center {
+    padding: 0 5px; /* Minimal padding around groups */
+    margin: 0;
+}
+
+/* Module Styling - a consistent, boxy look */
+#workspaces,
+#custom-keybindings,
+#custom-calculator,
+#custom-windowsvm,
+#custom-cliphist,
+#custom-wallpaper,
+#custom-settings,
+#custom-system,
+#custom-hyprshade,
+#custom-hypridle,
+#custom-tools,
+#custom-waybarthemes,
+#custom-quicklink1,
+#custom-quicklink2,
+#custom-quicklink3,
+#custom-quicklink4,
+#custom-quicklink5,
+#custom-quicklink6,
+#custom-quicklink7,
+#custom-quicklink8,
+#custom-quicklink9,
+#custom-quicklink10,
+#idle_inhibitor,
+#custom-notification,
+#custom-exit,
+#disk,
+#memory,
+#cpu,
+#language,
+#power-profiles-daemon,
+#clock,
+#backlight,
+#pulseaudio,
+#network,
+#bluetooth,
+#battery,
+#tray {
+    padding: 4px 10px; /* More substantial padding for modules */
+    margin: 0 3px; /* Smaller gaps between modules */
+    background-color: transparent; /* Most modules start transparent */
+    border-radius: 4px; /* Slightly rounded, but still distinct */
+    color: @foreground;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out; /* Smooth transitions */
+}
+
+/* Workspaces */
+#workspaces {
+    padding-left: 10px; /* Padding on the left for the first module */
+    margin: 0;
+}
+
+#workspaces button {
+    padding: 4px 8px;
+    margin: 0 2px; /* Very small gap between workspace buttons */
+    color: @comment; /* Muted for inactive */
+    background: transparent;
+    border-radius: 4px;
+}
+
+#workspaces button.active {
+    color: @foreground; /* Bright for active */
+    background: @purple; /* Strong accent color for active workspace */
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#workspaces button:hover {
+    color: @foreground;
+    background: @cyan; /* Cyan hover accent */
+}
+
+#workspaces button.urgent {
+    background-color: @red; /* Red for urgent */
+    color: @foreground;
+}
+
+/* Window (Active Title) */
+#window {
+    padding: 4px 10px;
+    margin: 0 5px;
+    color: @foreground;
+    font-weight: bold; /* Make the window title bold */
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2); /* Subtle background for active window title */
+}
+
+window#waybar.empty #window {
+    background-color:transparent;
+}
+
+/* Tooltips */
+tooltip {
+    border-radius: 6px;
+    background-color: @background; /* Use primary background for tooltips */
+    color: @foreground;
+    padding: 10px;
+    border: 1px solid @purple; /* Add a subtle border to tooltips */
+    font-size: 13px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+tooltip label {
+    color: @foreground;
+}
+
+/* Custom Modules & Icons */
+/* General styling already applied above. Specific overrides for colors below. */
+
+#custom-hypridle.active {
+    color: @green; /* Green for active idle inhibitor */
+}
+
+#custom-hypridle.notactive {
+    color: @red; /* Red for not active */
+}
+
+#idle_inhibitor.activated {
+    color: @green;
+}
+
+#custom-notification {
+    font-size: 16px; /* Slightly larger icon */
+    color: @cyan; /* Cyan for notifications */
+    margin-right: 8px;
+}
+
+#custom-exit {
+    font-size: 16px;
+    color: @red; /* Red for exit */
+    margin-right: 10px; /* More prominent on the far right */
+}
+
+/* Custom Updates (REMOVED THIS BLOCK) */
+/*
+#custom-updates {
+    font-size: 13px;
+    padding: 2px 8px;
+    margin-right: 5px;
+    color: @foreground; // Default white
+    background-color: @comment; // Subtle background for update count
+}
+
+#custom-updates.yellow {
+    color: @orange; // Orange for minor updates
+}
+
+#custom-updates.red {
+    color: @red; // Red for critical updates
+}
+*/
+
+/* Hardware Modules */
+#disk,#memory,#cpu,#language {
+    font-size: 13px;
+    color: @green; /* Green for hardware stats */
+}
+
+/* Power Profiles Daemon */
+#power-profiles-daemon {
+    color: @yellow; /* Yellow for power profile */
+}
+
+/* Clock */
+#clock {
+    font-size: 14px;
+    color: @cyan; /* Cyan for clock */
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2); /* Subtle background */
+}
+
+/* Backlight */
+#backlight {
+    color: @orange; /* Orange for backlight */
+}
+
+/* Pulseaudio */
+#pulseaudio {
+    color: @pink; /* Pink for pulseaudio */
+}
+
+#pulseaudio.muted {
+    color: @comment; /* Muted color when silent */
+}
+
+/* Network */
+#network {
+    color: @green; /* Green for network status */
+}
+
+#network.ethernet, #network.wifi {
+    color: @cyan; /* More vibrant cyan when connected */
+}
+
+/* Bluetooth */
+#bluetooth, #bluetooth.on, #bluetooth.connected {
+    color: @purple; /* Purple for Bluetooth */
+}
+
+#bluetooth.off {
+    color: @comment; /* Muted when off */
+}
+
+/* Battery */
+#battery {
+    color: @yellow; /* Yellow for battery */
+}
+
+#battery.charging, #battery.plugged {
+    color: @green; /* Green when charging/plugged */
+}
+
+@keyframes blink {
+    to {
+        color: @red; /* Red blink for critical battery */
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+    animation: blink 0.6s linear infinite alternate;
+}
+
+/* Tray */
+#tray {
+    margin: 0px 5px 0px 0px;
+    padding: 4px 8px; /* Consistent padding */
+    background-color: rgba(0,0,0,0.2); /* Subtle background for tray */
+    border-radius: 4px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @orange; /* Orange highlight for attention */
+}
