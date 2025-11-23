@@ -1,0 +1,203 @@
+/* ========================================================
+ * Catppuccin Mocha
+ * ======================================================== */
+@define-color bg        #1e1e2e;
+@define-color fg        #cdd6f4;
+@define-color muted     #6c7086;
+
+@define-color red       #f38ba8;
+@define-color orange    #fab387;
+@define-color yellow    #f9e2af;
+@define-color green     #a6e3a1;
+@define-color aqua      #94e2d5;
+@define-color blue      #89b4fa;
+@define-color purple    #cba6f7;
+
+@define-color bright_red    #f38ba8;
+@define-color bright_green  #a6e3a1;
+@define-color bright_yellow #f9e2af;
+@define-color bright_aqua   #94e2d5;
+@define-color bright_blue   #89b4fa;
+@define-color bright_purple #cba6f7;
+
+/* =================== BASE RESET ======================= */
+* {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  border-radius: 0px;
+  border: none;
+  text-shadow: none;
+  transition: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background: @bg;
+  padding: 3px 0;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* =================== COMMON MODULE ==================== */
+#window,
+#custom-updates,
+#tray,
+#network,
+#wireplumber,
+#battery,
+#backlight,
+#clock,
+#memory,
+#cpu,
+#custom-launcher,
+#custom-bluetooth,
+#idle_inhibitor,
+#custom-mpris-prev,
+#custom-mpris-next,
+#custom-modes,
+#mpris {
+  color: @fg;
+  margin: 2px 6px;
+  padding: 4px 7px;
+  border-bottom: 2px solid @muted;
+}
+
+/* ================ Power Profiles ====================== */
+#power-profiles-daemon {
+  border-bottom: 2px solid @muted;
+  color: @fg;
+}
+#power-profiles-daemon.performance { color: @red; border-bottom-color: @red; }
+#power-profiles-daemon.balanced   { color: @green; border-bottom-color: @green; }
+#power-profiles-daemon.power-saver{ color: @blue; border-bottom-color: @blue; }
+
+/* ================= Idle Inhibitor ===================== */
+#idle_inhibitor { color: @yellow; border-bottom-color: @yellow; }
+#idle_inhibitor.activated   { color: @green; border-bottom-color: @green; }
+#idle_inhibitor.deactivated { color: @red; border-bottom-color: @red; }
+
+/* ================= CPU/Memory ========================= */
+#cpu { color: @green; border-bottom-color: @green; }
+#cpu.warning   { color: @yellow; border-bottom-color: @yellow; }
+#cpu.critical  { color: @red; border-bottom-color: @red; }
+
+#memory { color: @aqua; border-bottom-color: @aqua; }
+#memory.warning  { color: @orange; border-bottom-color: @orange; }
+#memory.critical { color: @red; border-bottom-color: @red; }
+
+/* ================= Battery ============================= */
+#battery { color: @bright_green; border-bottom-color: @bright_green; }
+#battery.charging,
+#battery.plugged { color: @green; border-bottom-color: @green; }
+#battery.warning:not(.charging) { color: @yellow; border-bottom-color: @yellow; }
+#battery.critical:not(.charging) { color: @red; border-bottom-color: @red; }
+
+/* ================= Window Title ======================== */
+#window {
+  color: @bg;
+  background: @bright_purple;
+  border-bottom-color: @blue;
+}
+window#waybar.empty #window {
+  margin: 0; padding: 0; background: transparent; color: transparent; border-bottom: none;
+}
+
+/* ================= Network ============================= */
+#network { color: @orange; border-bottom-color: @orange; }
+#network.disconnected { color: @red; border-bottom-color: @red; }
+
+/* ================= Audio =============================== */
+#wireplumber { color: @aqua; border-bottom-color: @aqua; }
+#wireplumber.muted { color: @bright_red; border-bottom-color: @bright_red; }
+
+/* ================= Backlight & Clock =================== */
+#backlight { color: @bright_yellow; border-bottom-color: @bright_yellow; }
+#clock { color: @bright_aqua; border-bottom-color: @bright_aqua; }
+
+/* ================= Tray ================================ */
+#tray { border-bottom-color: @fg; }
+
+/* ================= Launcher & Bluetooth ================ */
+#custom-launcher { color: @bright_blue; border-bottom-color: @bright_blue; }
+#custom-bluetooth { color: @blue; border-bottom-color: @blue; }
+
+/* ================= MPRIS =============================== */
+#mpris,
+#custom-mpris-prev,
+#custom-mpris-next {
+  color: @aqua;
+  border-bottom-color: @aqua;
+}
+#mpris:hover,
+#custom-mpris-prev:hover,
+#custom-mpris-next:hover {
+  color: @bright_green;
+  border-bottom-color: @bright_green;
+}
+
+
+/* ========================================================
+ * Catppuccin Mocha (Updated)
+ * ======================================================== */
+/* (colors stay the same from previous snippet) */
+
+/* ================= Taskbar ============================= */
+#taskbar {
+  background: transparent;
+  padding: 0;
+  margin: 0 6px;
+  border-bottom: none;
+}
+
+#taskbar button {
+  background: transparent;
+  border: none;
+  margin: 2px 2px;
+  padding: 3px 6px; /* 👈 slightly increased padding */
+  color: @fg;
+  border-bottom: 2px solid @muted;
+  min-width: 18px;
+  border-radius: 3px; /* 👈 added subtle rounding for visibility */
+}
+
+/* === Current Window Highlight === */
+#taskbar button.active {
+  border-bottom: 2px solid @bright_blue;
+  background: @blue;          /* 👈 highlight color */
+  color: @bg;
+  font-weight: bold;
+}
+
+/* === Hover and Urgent === */
+#taskbar button:hover {
+  border-bottom-color: @bright_green;
+  background: @green;
+  color: @bg;
+}
+
+#taskbar button.urgent {
+  border-bottom-color: @bright_red;
+  background: @red;
+  color: @bg;
+}
+
+/* ================ Workspaces =========================== */
+#workspaces button.active {
+  background: @purple;   /* 👈 more visible purple highlight */
+  color: @bg;
+  border-bottom: 2px solid @bright_purple;
+  font-weight: bold;
+}
+
+/* ================= Tray (with spacing) ================== */
+#tray {
+  padding: 5px 9px;      /* 👈 increased area around icons */
+  margin: 0 6px;
+  border-bottom: 2px solid @fg;
+}
+
+#tray > * {
+  margin: 0 4px;         /* 👈 spacing between icons */
+}
