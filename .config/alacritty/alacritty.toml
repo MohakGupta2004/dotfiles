@@ -1,21 +1,86 @@
-general.import = [ "./themes/themes/gruvbox_material.toml" ]
-
+# general.import = [ "./themes/themes/pure_black_white.toml" ]
+#
+# ==============================================================================
+# BASE SETTINGS
+# ==============================================================================
 [env]
 TERM = "xterm-256color"
 
+# ==============================================================================
+# FONT: Use a clean, modern font like JetBrains Mono or Fira Code
+# You must have this font installed on your system.
+# ==============================================================================
 [font]
-normal = { family = "JetBrainsMono Nerd Font" }
-bold   = { family = "JetBrainsMono Nerd Font" }
-italic = { family = "JetBrainsMono Nerd Font" }
-size = 10
+size = 10.0 # Slightly smaller for a tighter, cleaner look
 
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+# ==============================================================================
+# WINDOW & PADDING
+# ==============================================================================
 [window]
-padding = { x = 14, y = 14 }
-decorations = "None"
-opacity = 1   # or background_opacity if using newer Alacritty
+# Use inner padding for a clean border around the content
+padding = { x = 20, y = 20 }
+decorations = "None" # Since you are using a compositor (Hyprland), no window decorations
 
-[keyboard]
-bindings = [
-  { key = "F11", action = "ToggleFullscreen" }
-]
+# Adjust opacity for the translucent, blurred look. Set below 1.0.
+# If you are using Hyprland, make sure you have "blur" enabled for Alacritty in hyprland.conf
+opacity = 0.95
 
+# ==============================================================================
+# COLORS: Dark Charcoal Theme (Similar to macOS Dark Mode Terminal)
+# ==============================================================================
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "0x1A1A1A"  # Dark Charcoal background
+foreground = "0xCFCFCF"  # Off-white/light gray foreground
+
+[colors.cursor]
+cursor = "0x7F7F7F" # Gray block cursor
+text = "0x1A1A1A" # Dark text inside cursor
+
+# Standard ANSI colors (Mostly grayed out or soft accent colors)
+[colors.normal]
+black   = "0x282C34" # Dark gray
+red     = "0xEE6E73" # Soft Red
+green   = "0x89C979" # Soft Green (Accent)
+yellow  = "0xF9C674" # Soft Yellow
+blue    = "0x5CCFE6" # Soft Cyan/Blue
+magenta = "0xC594C5" # Soft Magenta
+cyan    = "0x78B892" # Soft Cyan
+white   = "0xCFCFCF" # Light gray
+
+# Bright ANSI colors (More vibrant versions)
+[colors.bright]
+black   = "0x4B5263"
+red     = "0xF47275"
+green   = "0x98D37E"
+yellow  = "0xFAC761"
+blue    = "0x63D8F1"
+magenta = "0xCC99CC"
+cyan    = "0x89C979" # Keeping Bright Cyan same as Normal Green for consistency
+white   = "0xFFFFFF" # Pure white
+
+# ==============================================================================
+# CURSOR & BELL
+# ==============================================================================
+[cursor]
+style = "Block"
+unfocused_hollow = false
+
+[bell]
+animation = "EaseOutExpo"
+color = "0x89C979" # Use the accent color for a subtle bell flash
+duration = 0
