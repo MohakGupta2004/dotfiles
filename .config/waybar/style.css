@@ -5,93 +5,102 @@
     font-weight: bold;
 }
 
+/* Base style for both bars */
 window#waybar {
-    /* The dark background color matching the screenshot */
     background-color: rgba(20, 20, 20, 0.95); 
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
-    opacity: 0.9;
 }
 
-/* Add a bottom border if you want distinct separation */
-window#waybar.hidden {
-    opacity: 0.2;
+/* --- Top Bar Specific --- */
+window#waybar.top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.95;
 }
 
-/* --- Left Side --- */
+/* --- Bottom Bar (The Dock) Specific --- */
+window#waybar.bottom {
+    background-color: rgba(30, 30, 30, 0.8); /* Slightly more transparent */
+    border-radius: 20px; /* Makes it a pill shape */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+/* --- Modules Left --- */
 
 #custom-launcher {
     background-color: transparent;
     color: #ffffff;
-    padding: 0 15px;
+    padding: 0 10px 0 15px;
     font-size: 18px;
-    margin-right: 5px;
 }
-/* ... other module styles ... */
 
-#bluetooth {
+/* The File/Edit/View menu style */
+#custom-texttwo, #custom-textthree, #custom-textfour, #custom-textfive {
     padding: 0 10px;
-    color: #ffffff;
-    background-color: transparent;
+    color: #cccccc;
+    font-weight: normal;
 }
 
-/* Ensure the network module still looks right */
-#network {
-    padding: 0 10px;
+#custom-texttwo:hover, #custom-textthree:hover {
     color: #ffffff;
-    background-color: transparent;
 }
 
-#window {
-    background-color: transparent;
-    color: #ffffff;
-    padding: 0 10px;
-}
-
-/* --- Workspace (Dots) Styling --- */
+/* --- Workspace (Dots) --- */
 #workspaces {
     background: transparent;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    padding: 0 5px;
 }
 
 #workspaces button {
     padding: 0 5px;
-    color: #888888; /* Grey for inactive workspaces */
+    color: #888888;
     background: transparent;
-    font-size: 14px;
 }
 
 #workspaces button.active {
-    color: #ffffff; /* White for the active workspace */
+    color: #ffffff;
 }
 
 #workspaces button:hover {
     color: #ffffff;
-    box-shadow: inherit;
-    text-shadow: inherit;
+}
+
+/* --- Center Window Title --- */
+#window {
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+/* --- Taskbar (Icons in the bottom dock) --- */
+#taskbar {
+    padding: 0 10px;
+}
+
+#taskbar button {
+    padding: 0 8px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(.55,-0.04,.3,1.44);
+}
+
+#taskbar button.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid #ffffff; /* Active app indicator */
+}
+
+#taskbar button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: -2px; /* Slight lift effect on hover */
 }
 
 /* --- Right Side --- */
 
-#clock,
-#battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#network,
-#pulseaudio,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#mpd {
+#clock, #battery, #bluetooth, #network, #pulseaudio, #tray, #custom-search {
     padding: 0 10px;
     color: #ffffff;
-    background-color: transparent;
 }
 
 #clock {
@@ -99,8 +108,7 @@ window#waybar.hidden {
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+    color: #26A65B;
 }
 
 #battery.critical:not(.charging) {
@@ -112,9 +120,16 @@ window#waybar.hidden {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+#custom-texttwo, #custom-textthree, #custom-textfour, #custom-textfive {
+    padding: 0 12px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background 0.2s;
+}
 
-label:focus {
-    background-color: #000000;
+#custom-texttwo:hover, #custom-textthree:hover, #custom-textfour:hover, #custom-textfive:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 
 @keyframes blink {
