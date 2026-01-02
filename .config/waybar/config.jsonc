@@ -1,98 +1,130 @@
-{
-    "layer": "top",
-    "position": "top",
-    "height": 34,
-    "spacing": 4,
-    "modules-left": [
-        "custom/launcher",
-        "hyprland/workspaces",
-        "hyprland/window"
-    ],
-    "modules-center": [],
-    "modules-right": [
-        "custom/search",
-        "bluetooth", // New Bluetooth module added here
-        "pulseaudio",
-        "network", // Network module with click action
-        "battery",
-        "clock"
-    ],
+[
+    // ==========================
+    // TOP BAR (Status & Menus)
+    // ==========================
+    {
+        "layer": "top",
+        "position": "top",
+        "height": 34,
+        "spacing": 4,
+        "modules-left": [
+            "custom/launcher",
+            "hyprland/workspaces",
+            "custom/texttwo",
+            "custom/textthree",
+            "custom/textfour",
+            "custom/textfive"
+        ],
+        "modules-center": [
+            "hyprland/window"
+        ],
+        "modules-right": [
+            "custom/search",
+            "bluetooth",
+            "pulseaudio",
+            "network",
+            "battery",
+            //"tray",
+            "clock"
+        ],
 
-    // --- Module Configuration ---
+        // --- Left Side Modules ---
 
-    "custom/launcher": {
-        "format": "   ",
-        "on-click": "rofi -show drun",
-        "tooltip": false
-    },
-
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-click": "activate",
-        "format-icons": {
-            "active": "",
-            "default": "",
-            "urgent": ""
+        "custom/launcher": {
+            "format": "   ",
+            "on-click": "rofi -show drun",
+            "tooltip": false
         },
-        "persistent-workspaces": {
-            "*": 5
+
+        "hyprland/workspaces": {
+            "format": "{icon}",
+            "on-click": "activate",
+            "format-icons": {
+                "active": "",
+                "default": "",
+                "urgent": ""
+            },
+            "persistent-workspaces": {
+                "*": 5
+            }
+        },
+
+"custom/texttwo": {
+    "format": "File",
+    "on-click": "nautilus ~/",
+    "interval": "once"
+},
+"custom/textthree": {
+    "format": "Edit",
+    "on-click": "~/.config/waybar/edit_menu.sh",
+    "interval": "once"
+},
+"custom/textfour": {
+    "format": "View",
+    "on-click": "echo -e 'Zoom In\nZoom Out\nFull Screen\nToggle Sidebar' | wofi --show dmenu --prompt 'View' | xargs -I {} notify-send 'View' 'Selected: {}'",
+    "interval": "once"
+},
+"custom/textfive": {
+    "format": "Help",
+    "on-click": "echo -e 'Documentation\nKeyboard Shortcuts\nAbout' | wofi --show dmenu --prompt 'Help' | xargs -I {} notify-send 'Help' 'Selected: {}'",
+    "interval": "once"
+},
+    "hyprland/window": {
+            "format": "<b>{title}</b>",
+            "max-length": 50,
+            "separate-outputs": true,
+            "rewrite": {
+                "^(?!.*\\S).*": "Desktop" 
+            }
+        },
+
+        // --- Right Side Modules ---
+
+        "custom/search": {
+            "format": "  ",
+            "on-click": "sherlock",
+            "tooltip": false
+        },
+
+        "bluetooth": {
+            "format": " {status}",
+            "format-disabled": "󰂲",
+            "format-off": "󰂲",
+            "format-on": " {num_connections}",
+            "format-connected": " {device_alias}",
+            "on-click": "blueman-manager"
+        },
+
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-muted": " Muted",
+            "format-icons": {
+                "default": [" ", " ", " "]
+            },
+            "on-click": "pavucontrol"
+        },
+
+        "network": {
+            "format-wifi": " ",
+            "format-ethernet": " ",
+            "format-disconnected": " ",
+            "tooltip-format": "{essid} ({signalStrength}%)",
+            "on-click": "nm-connection-editor"
+        },
+
+        "battery": {
+            "states": { "good": 95, "warning": 30, "critical": 15 },
+            "format": "{icon}  {capacity}%",
+            "format-icons": ["", "", "", "", ""]
+        },
+
+        "tray": {
+            "spacing": 10
+        },
+
+        "clock": {
+            "format": "{:%a %b %d   %I:%M %p}",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
         }
     },
-
-    "hyprland/window": {
-        "format": "  <b>{title}</b>",
-        "max-length": 50,
-        "separate-outputs": true
-    },
-
-    "custom/search": {
-        "format": "  ",
-        "on-click": "sherlock",
-        "tooltip": false
-    },
-
-    "bluetooth": {
-        "format": " {status}", // Main icon and connection status
-        "format-disabled": "󰂲", // Icon when turned off
-        "format-off": "󰂲", // Icon when turned off
-        "format-on": " {num_connections}", // Show number of connections
-        "format-connected": " {device_alias}", // Show connected device name
-        "format-icons": {
-            "enabled": "",
-            "disabled": "󰂲"
-        },
-        "on-click": "blueman-manager" // Launches a common Bluetooth manager
-    },
-
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-muted": " Muted",
-        "format-icons": {
-            "default": ["  ", "  ", "  "]
-        },
-        "on-click": "pavucontrol"
-    },
-
-    "network": {
-        "format-wifi": " ",
-        "format-ethernet": " ",
-        "format-disconnected": " ",
-        "tooltip-format": "{essid} ({signalStrength}%)",
-        "on-click": "nm-connection-editor" // *** THIS IS THE NEW CLICK ACTION ***
-    },
-
-    "battery": {
-        "states": {
-            "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon}  {capacity}%",
-        "format-icons": ["", "", "", "", ""]
-    },
-
-    "clock": {
-        "format": "{:%a %b %d   %I:%M %p}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    }
-}
+]
