@@ -1,140 +1,91 @@
 * {
-    border: none;
-    font-family: "JetBrainsMono Nerd Font", "San Francisco", "Arial";
-    font-size: 14px;
-    font-weight: bold;
+  border: none;
+  font-family: "SF Pro Display", "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  font-weight: 500;
 }
 
-/* Base style for both bars */
 window#waybar {
-    background-color: rgba(20, 20, 20, 0.95); 
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-/* --- Top Bar Specific --- */
-window#waybar.top {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    opacity: 0.95;
-}
-
-/* --- Bottom Bar (The Dock) Specific --- */
-window#waybar.bottom {
-    background-color: rgba(30, 30, 30, 0.8); /* Slightly more transparent */
-    border-radius: 20px; /* Makes it a pill shape */
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 10px;
-    opacity: 1;
-}
-
-/* --- Modules Left --- */
 
 #custom-launcher {
-    background-color: transparent;
-    color: #ffffff;
-    padding: 0 10px 0 15px;
-    font-size: 18px;
+  font-size: 20px;
+  padding: 0 10px;
+  color: #ffffff;
 }
 
-/* The File/Edit/View menu style */
-#custom-texttwo, #custom-textthree, #custom-textfour, #custom-textfive {
-    padding: 0 10px;
-    color: #cccccc;
-    font-weight: normal;
-}
-
-#custom-texttwo:hover, #custom-textthree:hover {
-    color: #ffffff;
-}
-
-/* --- Workspace (Dots) --- */
-#workspaces {
-    background: transparent;
-    padding: 0 5px;
-}
-
-#workspaces button {
-    padding: 0 5px;
-    color: #888888;
-    background: transparent;
-}
-
-#workspaces button.active {
-    color: #ffffff;
-}
-
-#workspaces button:hover {
-    color: #ffffff;
-}
-
-/* --- Center Window Title --- */
 #window {
-    color: #ffffff;
-    padding: 0 10px;
+  font-weight: 700;
+  padding: 0 10px;
 }
 
-/* --- Taskbar (Icons in the bottom dock) --- */
-#taskbar {
-    padding: 0 10px;
+#custom-file,
+#custom-edit,
+#custom-view,
+#custom-window,
+#custom-help {
+  padding: 0 8px;
+  font-size: 13px;
 }
 
-#taskbar button {
-    padding: 0 8px;
-    margin: 4px 2px;
-    border-radius: 10px;
-    transition: all 0.3s cubic-bezier(.55,-0.04,.3,1.44);
+#custom-search,
+#custom-notification,
+#pulseaudio,
+#network,
+#bluetooth,
+#battery,
+#idle_inhibitor,
+#tray {
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 0 1px;
 }
 
-#taskbar button.active {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-bottom: 2px solid #ffffff; /* Active app indicator */
-}
-
-#taskbar button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    margin-top: -2px; /* Slight lift effect on hover */
-}
-
-/* --- Right Side --- */
-
-#clock, #battery, #bluetooth, #network, #pulseaudio, #tray, #custom-search {
-    padding: 0 10px;
-    color: #ffffff;
+#battery {
+  font-size: 14px;
 }
 
 #clock {
-    margin-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 12px;
+  padding: 0 8px;
 }
 
-#battery.charging, #battery.plugged {
-    color: #26A65B;
+#bluetooth.connected {
+  color: #2ecc71;
 }
 
-#battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-#custom-texttwo, #custom-textthree, #custom-textfour, #custom-textfive {
-    padding: 0 12px;
-    color: #ffffff;
-    font-weight: bold;
-    transition: background 0.2s;
+#workspaces button {
+  padding: 0 6px;
+  color: #666666;
+  background: transparent;
 }
 
-#custom-texttwo:hover, #custom-textthree:hover, #custom-textfour:hover, #custom-textfive:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
+#workspaces button.active {
+  color: #ffffff;
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+#workspaces button.empty {
+  color: #333333;
+}
+
+/* Hover effects */
+#custom-launcher:hover,
+#custom-file:hover,
+#custom-edit:hover,
+#custom-view:hover,
+#custom-window:hover,
+#custom-help:hover,
+#custom-search:hover,
+#custom-notification:hover,
+#pulseaudio:hover,
+#network:hover,
+#bluetooth:hover,
+#idle_inhibitor:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
 }
