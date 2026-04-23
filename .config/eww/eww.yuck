@@ -31,6 +31,339 @@
 (defvar window-open false)
 (defvar help-open false)
 
+;; --- Control Center state ---
+(defvar caffeine-on false)
+
+(defpoll brightness :interval "2s" :initial "50"
+  `brightnessctl -m 2>/dev/null | cut -d, -f4 | tr -d '%' || echo 50`)
+
+(defpoll bt-powered :interval "5s" :initial "no"
+  `bluetoothctl show 2>/dev/null | awk '/Powered:/{print $2; exit}' || echo no`)
+
+(defpoll bt-connected :interval "5s" :initial ""
+  `bluetoothctl devices Connected 2>/dev/null | head -1 | cut -d' ' -f3- || echo ""`)
+
+(defpoll player-status :interval "1s" :initial "Stopped"
+  `playerctl status 2>/dev/null || echo Stopped`)
+
+(defpoll player-title :interval "2s" :initial ""
+  `playerctl metadata title 2>/dev/null || echo ""`)
+
+(defpoll player-artist :interval "2s" :initial "playerctl"
+  `playerctl metadata artist 2>/dev/null || echo playerctl`)
+
+(defpoll dark-mode :interval "5s" :initial "prefer-dark"
+  `gsettings get org.gnome.desktop.interface color-scheme 2>/dev/null | tr -d "'" || echo prefer-dark`)
+
+
+;; =============================================
+;;   LEFT SIDE — Apple + Global Menu
+;; =============================================
+
+(defwidget apple-menu []
+  (button :class "apple-btn"
+          :onclick "rofi -show drun &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/start-here-symbolic.svg"
+           :image-width 16
+           :image-height 16)))
+
+(defwidget app-name []
+  (label :class "app-name"
+         :text "${active-window}"))
+
+(defwidget menu-item [label var cmd]
+  (button :class "menu-item"
+          :onclick cmd
+    label))
+
+(defwidget global-menu []
+  (box :class "global-menu"
+       :orientation "h"
+       :space-evenly false
+       :spacing 2
+    (menu-item :label "File"   :var file-open   :cmd "echo file")
+    (menu-item :label "Edit"   :var edit-open   :cmd "echo edit")
+    (menu-item :label "View"   :var view-open   :cmd "echo view")
+    (menu-item :label "Window" :var window-open :cmd "echo window")
+    (menu-item :label "Help"   :var help-open   :cmd "echo help")))
+
+(defwidget left []
+  (box :class "left"
+       :orientation "h"
+       :halign "start"
+       :space-evenly false
+       :spacing 0
+    (apple-menu)
+    (app-name)
+    (global-menu)))
+
+
+;; =============================================
+;;   CENTER — Workspaces
+;; =============================================
+
+(defpoll workspaces :interval "1s" :initial "[]"
+  `hyprctl workspaces -j 2>/dev/null | jq '[.[] | {id: .id, name: .name}] | sort_by(.id)' 2>/dev/null || echo "[]"`)
+
+(defpoll active-ws :interval "1s" :initial "1"
+  `hyprctl activewindow -j 2>/dev/null | jq '.workspace.id // 1' 2>/dev/null || echo 1`)
+
+(defwidget workspace-btn [id name]
+  (button :class {active-ws == id ? "ws-btn active" : "ws-btn"}
+          :onclick "hyprctl dispatch workspace ${id}"
+    name))
+
+(defwidget workspaces-widget []
+  (box :class "workspaces"
+       :orientation "h"
+       :space-evenly false
+       :spacing 4
+    (for ws in workspaces
+      (workspace-btn :id {ws.id} :name {ws.name}))))
+
+(defwidget center []
+  (box :class "center"
+       :halign "center"
+       :space-evenly false
+    (workspaces-widget)))
+
+
+;; =============================================
+;;   RIGHT SIDE — Status Icons
+;; =============================================
+
+(defwidget volume-widget []
+  (button :class "status-icon"
+          :onclick "pavucontrol &"
+          :tooltip "Volume: ${volume}%"
+    (image :path {muted == "true" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-muted-symbolic.svg" :
+                  volume == "0"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-muted-symbolic.svg" :
+                  volume < "33"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-low-symbolic.svg" :
+                  volume < "66"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-medium-symbolic.svg" :
+                                    "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-high-symbolic.svg"}
+           :image-width 18
+           :image-height 18)))
+
+(defwidget battery-widget []
+  (box :class "battery"
+       :orientation "h"
+       :space-evenly false
+       :spacing 4
+    (label :class "battery-text"
+           :text "${battery}%")
+    (image :class "battery-icon"
+           :path {battery-status == "Charging" ?
+                    (battery < "10" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-000-charging-symbolic.svg" :
+                     battery < "30" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-020-charging-symbolic.svg" :
+                     battery < "50" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-040-charging-symbolic.svg" :
+                     battery < "70" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-060-charging-symbolic.svg" :
+                     battery < "90" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-080-charging-symbolic.svg" :
+                                      "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-100-charging-symbolic.svg") :
+                  battery < "10" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-000-symbolic.svg" :
+                  battery < "30" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-020-symbolic.svg" :
+                  battery < "50" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-040-symbolic.svg" :
+                  battery < "70" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-060-symbolic.svg" :
+                  battery < "90" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-080-symbolic.svg" :
+                                   "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-100-symbolic.svg"}
+           :image-width 20
+           :image-height 20)))
+
+(defwidget wifi-widget []
+  (button :class "status-icon"
+          :tooltip "${wifi-ssid}"
+          :onclick "nm-connection-editor &"
+    (image :path {wifi-ssid == "Disconnected" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/network-wireless-signal-none-symbolic.svg" :
+                                                "/usr/share/icons/MacTahoe-dark/status/symbolic/network-wireless-signal-excellent-symbolic.svg"}
+           :image-width 18
+           :image-height 18)))
+
+(defwidget bluetooth-widget []
+  (button :class "status-icon"
+          :onclick "blueman-manager &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/bluetooth-active-symbolic.svg"
+           :image-width 18
+           :image-height 18)))
+
+(defwidget notification-widget []
+  (button :class "status-icon"
+          :onclick "swaync-client -t -sw &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/notifications-symbolic.svg"
+           :image-width 18
+           :image-height 18)))
+
+(defwidget clock-widget []
+  (label :class "clock"
+         :text {formattime(EWW_TIME, "%a %b %d  %I:%M %p")}))
+
+(defwidget control-center-btn []
+  (button :class "status-icon cc-btn"
+          :onclick "eww open --toggle control-center"
+    (image :path "/home/mohak/.config/eww/icons/control-center.svg"
+           :image-width 18
+           :image-height 18)))
+
+(defwidget right []
+  (box :class "right"
+       :orientation "h"
+       :halign "end"
+       :space-evenly false
+       :spacing 0
+    (notification-widget)
+    (bluetooth-widget)
+    (wifi-widget)
+    (volume-widget)
+    (battery-widget)
+    (control-center-btn)
+    (clock-widget)))
+
+
+;; =============================================
+;;   BAR WINDOW
+;; =============================================
+
+(defwidget bar []
+  (centerbox :class "bar"
+             :orientation "h"
+    (box :halign "start" :space-evenly false
+      (left))
+    (box :halign "center" :space-evenly false
+      (center))
+    (box :halign "end" :space-evenly false
+      (right))))
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry
+    :x 0 :y 0
+    :width "100%"
+    :height "34px"
+    :anchor "top center")
+  :exclusive true
+  :stacking "fg"
+  :namespace "eww-bar"
+  (bar))
+
+
+;; =============================================
+;;   CONTROL CENTER
+;; =============================================
+
+(defwidget cc-tile [class icon title subtitle onclick]
+  (button :class "cc-tile ${class}"
+          :onclick onclick
+    (box :orientation "v" :space-evenly false :spacing 8 :halign "fill" :valign "fill"
+      (box :halign "start"
+        (image :path icon :image-width 22 :image-height 22))
+      (box :orientation "v" :space-evenly false :valign "end" :vexpand true
+        (label :class "cc-tile-title" :xalign 0 :text title)
+        (label :class "cc-tile-sub"   :xalign 0 :text subtitle)))))
+
+(defwidget cc-slider-tile [icon title value onchange]
+  (box :class "cc-slider-tile" :orientation "v" :space-evenly false :spacing 10
+    (box :orientation "h" :space-evenly false :spacing 8
+      (image :path icon :image-width 18 :image-height 18)
+      (label :class "cc-slider-label" :xalign 0 :hexpand true :text title)
+      (label :class "cc-slider-value" :text "${value}%"))
+    (scale :class "cc-scale" :min 0 :max 101 :value value :onchange onchange)))
+
+(defwidget cc-media []
+  (box :class "cc-media" :orientation "h" :space-evenly false :spacing 12
+    (box :class "cc-media-art" :halign "start" :valign "center"
+      (image :path "/usr/share/icons/MacTahoe-dark/mimes/symbolic/audio-x-generic-symbolic.svg"
+             :image-width 24 :image-height 24))
+    (box :orientation "v" :space-evenly false :hexpand true :valign "center"
+      (label :class "cc-media-title" :xalign 0
+             :text {player-title != "" ? player-title : "Now Playing"})
+      (label :class "cc-media-sub" :xalign 0 :text player-artist))
+    (box :orientation "h" :space-evenly false :spacing 4 :valign "center"
+      (button :class "cc-media-btn" :onclick "playerctl previous &"
+        (image :path "/usr/share/icons/MacTahoe-dark/actions/symbolic/media-skip-backward-symbolic.svg"
+               :image-width 14 :image-height 14))
+      (button :class "cc-media-btn" :onclick "playerctl play-pause &"
+        (image :path {player-status == "Playing"
+                      ? "/usr/share/icons/MacTahoe-dark/actions/symbolic/media-playback-pause-symbolic.svg"
+                      : "/usr/share/icons/MacTahoe-dark/actions/symbolic/media-playback-start-symbolic.svg"}
+               :image-width 14 :image-height 14))
+      (button :class "cc-media-btn" :onclick "playerctl next &"
+        (image :path "/usr/share/icons/MacTahoe-dark/actions/symbolic/media-skip-forward-symbolic.svg"
+               :image-width 14 :image-height 14)))))
+
+(defwidget control-center []
+  (box :class "cc-panel" :orientation "v" :space-evenly false :spacing 10
+    (box :orientation "h" :space-evenly true :spacing 10
+      (cc-tile :class {wifi-ssid != "Disconnected" ? "cc-tile-on" : "cc-tile-off"}
+               :icon "/usr/share/icons/MacTahoe-dark/status/symbolic/network-wireless-signal-excellent-symbolic.svg"
+               :title "Wi-Fi"
+               :subtitle {wifi-ssid != "Disconnected" ? wifi-ssid : "Off"}
+               :onclick "nm-connection-editor &")
+      (cc-tile :class {bt-powered == "yes" ? "cc-tile-on" : "cc-tile-off"}
+               :icon "/usr/share/icons/MacTahoe-dark/status/symbolic/bluetooth-active-symbolic.svg"
+               :title "Bluetooth"
+               :subtitle {bt-powered == "yes" ? "On" : "Off"}
+               :onclick "blueman-manager &"))
+    (box :orientation "h" :space-evenly true :spacing 10
+      (cc-tile :class {caffeine-on ? "cc-tile-on" : "cc-tile-off"}
+               :icon {caffeine-on ? "/usr/share/icons/MacTahoe-dark/status/symbolic/caffeine-cup-full-symbolic.svg" : "/usr/share/icons/MacTahoe-dark/status/symbolic/caffeine-cup-empty-symbolic.svg"}
+               :title "Caffeine"
+               :subtitle {caffeine-on ? "Active" : "Inactive"}
+               :onclick "eww update caffeine-on=${caffeine-on ? "false" : "true"}")
+      (cc-tile :class {dark-mode == "prefer-dark" ? "cc-tile-on" : "cc-tile-off"}
+               :icon "/usr/share/icons/MacTahoe-dark/actions/symbolic/dark-mode-symbolic.svg"
+               :title "Dark Mode"
+               :subtitle {dark-mode == "prefer-dark" ? "On" : "Off"}
+               :onclick "bash -c 'cur=$(gsettings get org.gnome.desktop.interface color-scheme); if [ \"$cur\" = \"'\\''prefer-dark'\\''\" ]; then gsettings set org.gnome.desktop.interface color-scheme default; else gsettings set org.gnome.desktop.interface color-scheme prefer-dark; fi' &"))
+    (cc-slider-tile :icon "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-high-symbolic.svg"
+                    :title "Volume"
+                    :value volume
+                    :onchange "pamixer --set-volume {} &")
+    (cc-slider-tile :icon "/usr/share/icons/MacTahoe-dark/status/symbolic/display-brightness-high-symbolic.svg"
+                    :title "Brightness"
+                    :value brightness
+                    :onchange "brightnessctl set {}% &")
+    (cc-media)))
+
+(defwindow control-center
+  :monitor 0
+  :geometry (geometry
+    :x "-10px" :y "42px"
+    :width "340px"
+    :anchor "top right")
+  :stacking "fg"
+  :namespace "eww-cc"
+  (control-center))
+;; =============================================
+;;   macOS-style EWW Bar
+;; =============================================
+
+;; --- Variables ---
+(defpoll volume :interval "1s" :initial "0"
+  `pamixer --get-volume 2>/dev/null || echo 0`)
+
+(defpoll muted :interval "1s" :initial "false"
+  `pamixer --get-mute 2>/dev/null || echo false`)
+
+(defpoll battery :interval "10s" :initial "0"
+  `cat /sys/class/power_supply/BAT0/capacity 2>/dev/null || echo 0`)
+
+(defpoll battery-status :interval "10s" :initial "Unknown"
+  `cat /sys/class/power_supply/BAT0/status 2>/dev/null || echo Unknown`)
+
+(defpoll wifi-ssid :interval "5s" :initial "Disconnected"
+  `nmcli -t -f NAME,TYPE connection show --active 2>/dev/null | awk -F: '$2=="802-11-wireless"{print $1; exit}' | grep . || echo "Disconnected"`)
+
+(defpoll active-window :interval "1s" :initial "Desktop"
+  `hyprctl activewindow -j 2>/dev/null | jq -r '.class // "Desktop"' 2>/dev/null || echo Desktop`)
+
+(defpoll active-window-title :interval "1s" :initial ""
+  `hyprctl activewindow -j 2>/dev/null | jq -r '.title // ""' 2>/dev/null || echo ""`)
+
+(defvar menu-open false)
+(defvar file-open false)
+(defvar edit-open false)
+(defvar view-open false)
+(defvar window-open false)
+(defvar help-open false)
+
 
 ;; =============================================
 ;;   LEFT SIDE — Apple + Global Menu
