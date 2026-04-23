@@ -1,0 +1,82 @@
+// =============================================
+//   macOS-style EWW Bar
+// =============================================
+
+$text-font: "SF Pro Display", "Inter", "JetBrainsMono Nerd Font", sans-serif;
+
+* {
+  font-family: $text-font;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+// Kill default button chrome across the bar
+button {
+  background: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  -gtk-icon-shadow: none;
+  &:focus, &:active, &:hover { box-shadow: none; outline: none; }
+}
+
+window, .bar {
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// -------- LEFT --------
+.apple-btn {
+  padding: 0 12px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+.app-name {
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.menu-item {
+  padding: 0 8px;
+  font-size: 13px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+// -------- CENTER (workspaces) --------
+.ws-btn {
+  padding: 0 6px;
+  color: #666666;
+  &.active { color: #ffffff; }
+  &:hover { background-color: rgba(255, 255, 255, 0.08); border-radius: 4px; }
+}
+
+// -------- RIGHT --------
+.status-icon {
+  padding: 0 8px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+.battery {
+  padding: 0 8px;
+}
+
+.battery-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-right: 2px;
+}
+
+.battery-icon { }
+
+.clock {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 12px;
+}
