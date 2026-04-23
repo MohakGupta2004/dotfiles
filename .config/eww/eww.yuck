@@ -1,4 +1,200 @@
-;; =============================================
+// =============================================
+//   macOS-style EWW Bar
+// =============================================
+
+$text-font: "SF Pro Display", "Inter", "JetBrainsMono Nerd Font", sans-serif;
+
+* {
+  font-family: $text-font;
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+// Kill default button chrome across the bar
+button {
+  background: none;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  -gtk-icon-shadow: none;
+  &:focus, &:active, &:hover { box-shadow: none; outline: none; }
+}
+
+window, .bar {
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// -------- LEFT --------
+.apple-btn {
+  padding: 0 12px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+.app-name {
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.menu-item {
+  padding: 0 8px;
+  font-size: 13px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+// -------- CENTER (workspaces) --------
+.ws-btn {
+  padding: 0 6px;
+  color: #666666;
+  &.active { color: #ffffff; }
+  &:hover { background-color: rgba(255, 255, 255, 0.08); border-radius: 4px; }
+}
+
+// -------- RIGHT --------
+.status-icon {
+  padding: 0 8px;
+  &:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 4px; }
+}
+
+.battery {
+  padding: 0 8px;
+}
+
+.battery-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-right: 2px;
+}
+
+.battery-icon { }
+
+.clock {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 12px;
+}
+
+// =============================================
+//   CONTROL CENTER
+// =============================================
+
+.cc-panel {
+  background-color: rgba(28, 28, 30, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 14px;
+  margin: 8px;
+}
+
+.cc-tile {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 14px;
+  min-width: 140px;
+  min-height: 96px;
+
+  &:hover { background-color: rgba(255, 255, 255, 0.14); }
+
+  &.cc-tile-on {
+    background-color: #f4f4f7;
+    color: #111111;
+  }
+  &.cc-tile-on:hover { background-color: #ffffff; }
+
+  &.cc-tile-on .cc-tile-title { color: #111111; }
+  &.cc-tile-on .cc-tile-sub   { color: rgba(0, 0, 0, 0.55); }
+}
+
+.cc-tile-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.cc-tile-sub {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cc-slider-tile {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.cc-slider-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.cc-slider-value {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cc-scale {
+  trough {
+    min-height: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    border: none;
+  }
+  highlight {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 999px;
+    border: none;
+  }
+  slider {
+    min-width: 16px;
+    min-height: 16px;
+    background-color: #ffffff;
+    border-radius: 999px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.cc-media {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.cc-media-art {
+  background-color: #e45858;
+  border-radius: 10px;
+  padding: 8px;
+  min-width: 36px;
+  min-height: 36px;
+}
+
+.cc-media-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.cc-media-sub {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.cc-media-btn {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0 6px;
+  &:hover { background-color: rgba(255, 255, 255, 0.18); }
+};; =============================================
 ;;   macOS-style EWW Bar
 ;; =============================================
 
