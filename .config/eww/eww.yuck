@@ -1,0 +1,212 @@
+;; =============================================
+;;   macOS-style EWW Bar
+;; =============================================
+
+;; --- Variables ---
+(defpoll volume :interval "1s" :initial "0"
+  `pamixer --get-volume 2>/dev/null || echo 0`)
+
+(defpoll muted :interval "1s" :initial "false"
+  `pamixer --get-mute 2>/dev/null || echo false`)
+
+(defpoll battery :interval "10s" :initial "0"
+  `cat /sys/class/power_supply/BAT0/capacity 2>/dev/null || echo 0`)
+
+(defpoll battery-status :interval "10s" :initial "Unknown"
+  `cat /sys/class/power_supply/BAT0/status 2>/dev/null || echo Unknown`)
+
+(defpoll wifi-ssid :interval "5s" :initial "Disconnected"
+  `nmcli -t -f NAME,TYPE connection show --active 2>/dev/null | awk -F: '$2=="802-11-wireless"{print $1; exit}' | grep . || echo "Disconnected"`)
+
+(defpoll active-window :interval "1s" :initial "Desktop"
+  `hyprctl activewindow -j 2>/dev/null | jq -r '.class // "Desktop"' 2>/dev/null || echo Desktop`)
+
+(defpoll active-window-title :interval "1s" :initial ""
+  `hyprctl activewindow -j 2>/dev/null | jq -r '.title // ""' 2>/dev/null || echo ""`)
+
+(defvar menu-open false)
+(defvar file-open false)
+(defvar edit-open false)
+(defvar view-open false)
+(defvar window-open false)
+(defvar help-open false)
+
+
+;; =============================================
+;;   LEFT SIDE — Apple + Global Menu
+;; =============================================
+
+(defwidget apple-menu []
+  (button :class "apple-btn"
+          :onclick "rofi -show drun &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/start-here-symbolic.svg"
+           :image-width 16
+           :image-height 16)))
+
+(defwidget app-name []
+  (label :class "app-name"
+         :text "${active-window}"))
+
+(defwidget menu-item [label var cmd]
+  (button :class "menu-item"
+          :onclick cmd
+    label))
+
+(defwidget global-menu []
+  (box :class "global-menu"
+       :orientation "h"
+       :space-evenly false
+       :spacing 2
+    (menu-item :label "File"   :var file-open   :cmd "echo file")
+    (menu-item :label "Edit"   :var edit-open   :cmd "echo edit")
+    (menu-item :label "View"   :var view-open   :cmd "echo view")
+    (menu-item :label "Window" :var window-open :cmd "echo window")
+    (menu-item :label "Help"   :var help-open   :cmd "echo help")))
+
+(defwidget left []
+  (box :class "left"
+       :orientation "h"
+       :halign "start"
+       :space-evenly false
+       :spacing 0
+    (apple-menu)
+    (app-name)
+    (global-menu)))
+
+
+;; =============================================
+;;   CENTER — Workspaces
+;; =============================================
+
+(defpoll workspaces :interval "1s" :initial "[]"
+  `hyprctl workspaces -j 2>/dev/null | jq '[.[] | {id: .id, name: .name}] | sort_by(.id)' 2>/dev/null || echo "[]"`)
+
+(defpoll active-ws :interval "1s" :initial "1"
+  `hyprctl activewindow -j 2>/dev/null | jq '.workspace.id // 1' 2>/dev/null || echo 1`)
+
+(defwidget workspace-btn [id name]
+  (button :class {active-ws == id ? "ws-btn active" : "ws-btn"}
+          :onclick "hyprctl dispatch workspace ${id}"
+    name))
+
+(defwidget workspaces-widget []
+  (box :class "workspaces"
+       :orientation "h"
+       :space-evenly false
+       :spacing 4
+    (for ws in workspaces
+      (workspace-btn :id {ws.id} :name {ws.name}))))
+
+(defwidget center []
+  (box :class "center"
+       :halign "center"
+       :space-evenly false
+    (workspaces-widget)))
+
+
+;; =============================================
+;;   RIGHT SIDE — Status Icons
+;; =============================================
+
+(defwidget volume-widget []
+  (button :class "status-icon"
+          :onclick "pavucontrol &"
+          :tooltip "Volume: ${volume}%"
+    (image :path {muted == "true" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-muted-symbolic.svg" :
+                  volume == "0"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-muted-symbolic.svg" :
+                  volume < "33"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-low-symbolic.svg" :
+                  volume < "66"   ? "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-medium-symbolic.svg" :
+                                    "/usr/share/icons/MacTahoe-dark/status/symbolic/audio-volume-high-symbolic.svg"}
+           :image-width 18
+           :image-height 18)))
+
+(defwidget battery-widget []
+  (box :class "battery"
+       :orientation "h"
+       :space-evenly false
+       :spacing 4
+    (label :class "battery-text"
+           :text "${battery}%")
+    (image :class "battery-icon"
+           :path {battery-status == "Charging" ?
+                    (battery < "10" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-000-charging-symbolic.svg" :
+                     battery < "30" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-020-charging-symbolic.svg" :
+                     battery < "50" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-040-charging-symbolic.svg" :
+                     battery < "70" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-060-charging-symbolic.svg" :
+                     battery < "90" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-080-charging-symbolic.svg" :
+                                      "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-100-charging-symbolic.svg") :
+                  battery < "10" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-000-symbolic.svg" :
+                  battery < "30" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-020-symbolic.svg" :
+                  battery < "50" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-040-symbolic.svg" :
+                  battery < "70" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-060-symbolic.svg" :
+                  battery < "90" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-080-symbolic.svg" :
+                                   "/usr/share/icons/MacTahoe-dark/status/symbolic/battery-100-symbolic.svg"}
+           :image-width 20
+           :image-height 20)))
+
+(defwidget wifi-widget []
+  (button :class "status-icon"
+          :tooltip "${wifi-ssid}"
+          :onclick "nm-connection-editor &"
+    (image :path {wifi-ssid == "Disconnected" ? "/usr/share/icons/MacTahoe-dark/status/symbolic/network-wireless-signal-none-symbolic.svg" :
+                                                "/usr/share/icons/MacTahoe-dark/status/symbolic/network-wireless-signal-excellent-symbolic.svg"}
+           :image-width 18
+           :image-height 18)))
+
+(defwidget bluetooth-widget []
+  (button :class "status-icon"
+          :onclick "blueman-manager &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/bluetooth-active-symbolic.svg"
+           :image-width 18
+           :image-height 18)))
+
+(defwidget notification-widget []
+  (button :class "status-icon"
+          :onclick "swaync-client -t -sw &"
+    (image :path "/usr/share/icons/MacTahoe-dark/status/symbolic/notifications-symbolic.svg"
+           :image-width 18
+           :image-height 18)))
+
+(defwidget clock-widget []
+  (label :class "clock"
+         :text {formattime(EWW_TIME, "%a %b %d  %I:%M %p")}))
+
+(defwidget right []
+  (box :class "right"
+       :orientation "h"
+       :halign "end"
+       :space-evenly false
+       :spacing 0
+    (notification-widget)
+    (bluetooth-widget)
+    (wifi-widget)
+    (volume-widget)
+    (battery-widget)
+    (clock-widget)))
+
+
+;; =============================================
+;;   BAR WINDOW
+;; =============================================
+
+(defwidget bar []
+  (centerbox :class "bar"
+             :orientation "h"
+    (box :halign "start" :space-evenly false
+      (left))
+    (box :halign "center" :space-evenly false
+      (center))
+    (box :halign "end" :space-evenly false
+      (right))))
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry
+    :x 0 :y 0
+    :width "100%"
+    :height "34px"
+    :anchor "top center")
+  :exclusive true
+  :stacking "fg"
+  :namespace "eww-bar"
+  (bar))
